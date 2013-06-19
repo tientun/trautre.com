@@ -1,0 +1,491 @@
+body {
+    color: #333333;
+    font-family: arial,verdana,serif;
+    font-size: 12px;
+    line-height: 1.4em;
+}
+#header {
+    background-color: #1F1F1F;
+    border-bottom: 1px solid #333333;
+    box-shadow: 0 2px 0 0 #262626, 0 -1px 0 0 #171717;
+    color: #C5C5C5;
+    left: 0;
+    margin: auto 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+* {
+    outline: medium none;
+}
+#headerContent {
+    height: 40px;
+    margin: 0 auto;
+    width: 995px;
+}
+a#logo {
+    background: url("../img/logo_40.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 40px;
+    text-indent: -9999px;
+    width: 70px;
+}
+#headerContent a {
+    transition: color 0.2s linear 0s;
+}
+a {
+    color: #333333;
+    text-decoration: none;
+    transition: color 0.2s linear 0s;
+}
+ul#menuBar {
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 15px 0 0 10px;
+}
+ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+#menuBar li {
+    display: inline;
+}
+li {
+    list-style: none outside none;
+    margin: 0;
+}
+#menuBar li.selected a {
+    color: white;
+    text-shadow: 0 1px #000000;
+}
+#menuBar a {
+    color: #999999;
+    padding: 20px 10px;
+}
+#menuBar a:hover {
+    color: white;
+    text-shadow: 0 1px #000000;
+}
+#headerContent a {
+    transition: color 0.2s linear 0s;
+}
+#menuBar .upload {
+    background: url("../img/upload_icon.png") no-repeat scroll left center transparent;
+    margin-left: 8px;
+    padding: 20px 10px 20px 25px;
+}
+#loginPanel {
+    float: right;
+}
+#loginPanel .loginButton, .searchButton {
+    transition: background-color 0.2s linear 0s;
+}
+#loginPanel .loginButton:hover, .searchButton:hover {
+    background-color: #555555;
+    color: white;
+}
+#loginPanel .loginButton, #loginPanel .profileButton {
+    display: block;
+    margin: 8px 0 0;
+    width: 140px;
+}
+#loginPanel .loginButton, #loginPanel .profileButton, .searchButton {
+    background-color: #444444;
+    border: 1px solid black;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2) inset;
+    color: #EDEDED;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;
+    max-width: 194px;
+    padding: 5px 10px;
+    text-align: center;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.2);
+}
+.clear {
+    clear: both;
+}
+#content {
+    margin: 51px 0 0;
+    padding-bottom: 100px;
+}
+#mainContainer {
+    margin: 0 auto;
+    width: 995px;
+}
+#leftColumn {
+    float: left;
+    width: 685px;
+}
+#rightColumn {
+    float: right;
+    width: 300px;
+}
+div.box {
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 3px #AAAAAA;
+    margin: 0 0 10px;
+    padding: 10px 15px 5px;
+}
+#footer {
+    margin: 10px 0 20px;
+    text-shadow: 0 1px #EEEEEE;
+}
+div.highlightBox {
+    background-color: #FFFF99;
+}
+div.darkBox {
+    background-color: #DEDEDE;
+    box-shadow: 0 0 3px #888888;
+    text-shadow: 0 1px #EEEEEE;
+}
+element.style {
+    position: fixed;
+    top: 51px;
+}
+div.tips {
+    background: none repeat scroll 0 0 #FFFF99;
+    border: 1px solid #E6DB55;
+    display: block;
+    font-size: 12px;
+    padding: 6px 10px;
+    text-shadow: 0 1px white;
+}
+div.tips a {
+    color: #00A5F0;
+}
+element.style {
+    color: white;
+    float: left;
+    width: 278px;
+}
+.spaceBottom {
+    margin-bottom: 10px;
+}
+.buttons {
+    background-color: #00A5F0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4) inset, 0 1px white;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 30px;
+    min-width: 45px;
+    padding: 0 10px;
+    text-align: center;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s linear 0s;
+}
+div.box h3 {
+    font-size: 17px;
+    margin: 0 0 5px;
+}
+ul.topUsersSortHome li {
+    font-style: italic;
+}
+ul.topUsersSort li {
+    display: inline;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: bold;
+}
+ul.topUsersSortHome a.selected {
+    color: #00A5F0;
+}
+h3.topUsers {
+    background: url("../img/smile_icon.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    padding-left: 22px;
+}
+ul.topUsersSort {
+    float: right;
+}
+div.topUsers {
+    font-weight: bold;
+}
+div.moreTop {
+    font-style: italic;
+    font-weight: bold;
+    text-align: right;
+}
+div.topUsers .item {
+    float: left;
+    margin-bottom: 8px;
+    width: 135px;
+}
+div.topUsers .item .info {
+    margin-left: 38px;
+}
+div.topUsers .item img {
+    float: left;
+    height: 35px;
+    width: 35px;
+}
+div.topUsers .name {
+    display: block;
+    margin-bottom: 3px;
+}
+div.topUsers span.likes {
+    color: #333333;
+}
+element.style {
+    border-bottom: medium none;
+    height: 28px;
+    width: 270px;
+}
+.socialBox .media {
+    border-bottom: 1px solid #AAAAAA;
+    padding: 5px 0;
+}
+.fb_edge_widget_with_comment {
+    position: relative;
+}
+.fb_iframe_widget {
+    display: inline-block;
+    position: relative;
+}
+.fb_iframe_widget span {
+    display: inline-block;
+    position: relative;
+    text-align: justify;
+}
+element.style {
+    background: none repeat scroll 0 0 transparent;
+    border-style: none;
+    display: inline-block;
+    float: none;
+    font-size: 1px;
+    height: 24px;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+    vertical-align: baseline;
+    width: 106px;
+    border: medium none;
+    height: 28px;
+    overflow: hidden;    
+}
+.fb_iframe_widget iframe {
+    position: absolute;
+}
+div.infoBox a {
+    color: #00A5F0;
+}
+.photoListItem {
+    border-bottom: 1px solid #DDDDDD;
+    margin-bottom: 10px;
+    padding: 10px 0 20px;
+}
+.photoList .featuredFanPage {
+    border-bottom: 1px solid #DDDDDD;
+    height: 46px;
+    margin-bottom: 10px;
+    padding: 10px 0 20px;
+}
+.photoList .featuredFanPage a {
+    color: #00A5F0;
+}
+.recommend {
+    background-color: #F0F7F9;
+    border: 1px solid #99CCFF;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
+
+.listItemSeparator {
+    height: 1px;
+}
+.photoList .thumbnail5 {
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    width: 400px;
+}
+
+.photoList .thumbnail5 img {
+    margin: 0 auto -34px;
+    max-width: 400px;
+}
+.photoList .thumbnail4 {
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    width: 400px;
+}
+
+.photoList .thumbnail4 img {
+    margin: 0 auto -34px;
+    max-width: 400px;
+}
+.photoList .thumbnail3 {
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    width: 400px;
+}
+
+.photoList .thumbnail3 img {
+    margin: 0 auto -34px;
+    max-width: 400px;
+}
+.photoList .thumbnail2 {
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    width: 400px;
+}
+
+.photoList .thumbnail2 img {
+    margin: 0 auto -34px;
+    max-width: 400px;
+}
+.photoList .thumbnail1 {
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    width: 400px;
+}
+
+.photoList .thumbnail1 img {
+    margin: 0 auto -34px;
+    max-width: 400px;
+}
+.photoList .thumbnail {
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    width: 400px;
+}
+
+.photoList .thumbnail img {
+    margin: 0 auto -34px;
+    max-width: 400px;
+}
+img {
+    border: medium none;
+}
+.info0 {
+    margin-left: 410px;
+    width: 240px;
+    z-index: 1;
+}
+
+.info1 {
+    margin-left: 410px;
+    width: 240px;
+    z-index: 1;
+}
+.info2 {
+    margin-left: 410px;
+    width: 240px;
+    z-index: 1;
+}
+.info3 {
+    margin-left: 410px;
+    width: 240px;
+    z-index: 1;
+}
+.info4 {
+    margin-left: 410px;
+    width: 240px;
+    z-index: 1;
+}
+.info5 {
+    margin-left: 410px;
+    width: 240px;
+    z-index: 1;
+}
+.photoList .info {
+    margin-left: 410px;
+    width: 240px;
+    z-index: 1;
+}
+.photoList h2 {
+    line-height: 1.2em;
+    margin: 0 0 10px;
+}
+.photoList h2 a:hover{
+    color: #BA0069
+}
+.uploader {
+    color: #7D7D7D;
+    font-size: 11px;
+    margin-bottom: 3px;
+}
+.uploader a {
+    color: #00A5F0;
+}
+.photoList .stats {
+    font-size: 15px;
+    font-weight: bold;
+    height: 25px;
+    margin: 3px 5px 0 0;
+    padding: 3px 0;
+}
+.photoList .stats .viewComments {
+    float: left;
+    margin-top: 4px;
+}.views {
+    background: url("../img/view_icon.png") no-repeat scroll 0 0 transparent;
+    padding-left: 18px;
+}
+.photoList .stats .comments {
+    margin-left: 5px;
+}
+.comments {
+    background: url("../img/comment_icon.png") no-repeat scroll 0 0 transparent;
+    padding-left: 18px;
+}
+.photoList .stats .likesWrapper {
+    float: left;
+    margin-left: 9px;
+}
+
+.fb_edge_widget_with_comment {
+    position: relative;
+}
+.fb_iframe_widget {
+    display: inline-block;
+    position: relative;
+}
+.fb_iframe_widget span {
+    display: inline-block;
+    position: relative;
+    text-align: justify;
+}
+.fb_iframe_widget iframe {
+    position: absolute;
+}
+.photoList .featuredFanPage h4 {
+    color: #BA0069;
+    font-size: 15px;
+    margin: 0 0 5px;
+}
+div.box h4 {
+    font-size: 14px;
+    margin: 10px 0;
+}
+#footer {
+    margin: 10px 0 20px;
+    text-shadow: 0 1px #EEEEEE;
+}
+#footer ul.left {
+    float: left;
+}
+#footer ul {
+    list-style-type: none;
+}
+
+#footer ul.right {
+    float: right;
+}
