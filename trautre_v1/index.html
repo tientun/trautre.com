@@ -1,69 +1,17 @@
 <html>
-	<head>
+	<head> 
 		<title>Ảnh vui | H&#224;i vl</title>
                 <meta name="description" content="Xả stress tại haivl.com"/>
                 <link rel="image_src" href="http://s.haivl.com/content/images/logo_smiley.jpg" />                 
 		<meta charset="utf-8">		
                 <link rel="stylesheet" href="css/css1.css">
 		<script src="js/jquery-1.9.1.min.js"></script>
-                
-		<script type="text/javascript">	                
-                $(window).scroll(function(){    
-                var scrTop = $(window).scrollTop();               
-                var thumTop = $(".photoList .thumbnail").height();
-                var thumTop2 = $(".photoList .thumbnail2").height();
-                var thumTop3 = $(".photoList .thumbnail3").height();
-                var thumTop4 = $(".photoList .thumbnail4").height();
-                var thumTop5 = $(".photoList .thumbnail5").height();
-                
-                var thumTop1 = $(".photoList .thumbnail1").height();
-                if (scrTop > thumTop1 - 40 || scrTop < 60 ){   
-                    $(".photoList .info1").attr("style","position: relative;");
-                }else{
-                    $(".photoList .info1").attr("style","position: fixed; top: 60px;");
-                }
-                scrTop = scrTop - thumTop1 - 100;
-                if (scrTop > thumTop - 30 || scrTop < 100 ){                      
-                    $(".photoList .info0").attr("style","position: relative;");                
-                }else{
-                    $(".photoList .info0").attr("style","position: fixed; top: 60px");
-                }    
-                scrTop = scrTop - thumTop - 40;
-                if (scrTop > thumTop2 - 20 || scrTop < 60 ){                      
-                    $(".photoList .info2").attr("style","position: relative;");                
-                }else{
-                    $(".photoList .info2").attr("style","position: fixed; top: 60px");
-                }
-                scrTop = scrTop - thumTop2 - 40;
-                if (scrTop > thumTop3 - 50 || scrTop < 60 ){                      
-                    $(".photoList .info3").attr("style","position: relative;");                
-                }else{
-                    $(".photoList .info3").attr("style","position: fixed; top: 60px");
-                }
-                scrTop = scrTop - thumTop3 - 40;
-                if (scrTop > thumTop4 - 30 || scrTop < 60 ){                      
-                    $(".photoList .info4").attr("style","position: relative;");                
-                }else{
-                    $(".photoList .info4").attr("style","position: fixed; top: 60px");
-                }
-                
-                scrTop = scrTop - thumTop4 - 40;
-                if (scrTop > thumTop5 - 50 || scrTop < 30 ){                      
-                    $(".photoList .info5").attr("style","position: relative;");                
-                }else{
-                    $(".photoList .info5").attr("style","position: fixed; top: 60px");
-                }
-                //$(".photoList .info")
-                //.stop()
-                //.animate({"marginTop": t + "px"}, "fast","linear" );
-                //var t = $('.photoList').position().top; //lấy vị trí của phần trang web gán cho biến t
-              //$('.info').stop().animate({"marginTop": ($('.photoList').scrollTop()) + "px"}, "fast","linear"); //cuộn trang đến phần với biến t
-                //return false;
-});
-		</script>
+                <script src="js/script.js"></script>
 	</head>
 	<body>
+            <!--  start menu -->
             <div id="header">
+                <!-- list menu -->
                 <div id="headerContent">
                     <a id="logo" href="/">Logo</a>
                     <ul id="menuBar">
@@ -76,15 +24,22 @@
                         <li> <a href="#">Tìm kiếm</a> </li>
                         <li> <a target="_blank" href="http://h2o.vn/">Diễn đàn</a> </li>
                     </ul>
+                    
+                    <!-- login-->
                     <div id="loginPanel">
                         <a class="loginButton" href="#">Đăng nhập</a>
                     </div>
                     <div class="clear"> </div>
                 </div>
             </div>
+            <!-- content -->
             <div id="content">
                 <div id="mainContainer">
+                    
+                    <!-- Column Left -->
                     <div id="leftColumn">
+                        
+                        <!-- Content Main -->
                         <div class="box">
                             <h3>Ảnh mới</h3>
                             <div class="tips">
@@ -94,12 +49,12 @@
                             <div class="photoList">
                                 <div class="photoListItem" data-id="614669">
                                         <div class="listItemSeparator"> </div>
-                                        <div class="thumbnail1">
+                                        <div class="thumbnail">
                                             <a target="_blank" href="#">
                                                 <img class="thumbImg" alt="Bần tăng rất it khi hút thuốc :v" src="http://s2.haivl.com/data/photos2/20130616/75928485050a4036ba2f1ee35ccd4c0c/medium-4e07ef9a7e814777a9a07812f7966c2a-400.jpg">
                                             </a>
                                         </div>
-                                        <div class="info1" style="position: relative;">
+                                        <div class="info0">
                                             <h2>
                                                 <a href="#" target="_blank">
                                                     Bần tăng rất it khi hút thuốc
@@ -116,14 +71,13 @@
                                                     <span class="views" title="lượt xem">197</span>
                                                     <span class="comments" title="lượt bình luận">4</span>
                                                 </div>
-                                                <div class="media facebook">
-                                                    <div class="fb-like fb_edge_widget_with_comment fb_iframe_widget" data-show-faces="false" data-width="270" data-send="false" data-href="http://www.facebook.com/haivl.com" fb-xfbml-state="rendered">
-                                                        <span style="height: 24px; width: 270px;">
-                                                            <iframe id="f79e04feab3d24" class="fb_ltr" scrolling="no" name="ff322e69a0078a" style="border: medium none; overflow: hidden; height: 20px; width: 77px;" title="Like this content on Facebook." src="http://www.facebook.com/plugins/like.php?api_key=378808135489760&locale=en_US&sdk=joey&channel_url=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D25%23cb%3Df35f89adf25d014%26origin%3Dhttp%253A%252F%252Fwww.haivl.com%252Ff2629369b5fee92%26domain%3Dwww.haivl.com%26relation%3Dparent.parent&href=http%3A%2F%2Fwww.haivl.com%2Fphoto%2F614669&node_type=link&width=90&layout=button_count&colorscheme=light&show_faces=false&send=false&extended_social_context=false">
-                                                            </iframe>
-                                                        </span>
-                                                    </div>
+                                                <div class="likesWrapper">
+                                                <div class="fb-like fb_edge_widget_with_comment fb_iframe_widget" data-show-faces="false" data-width="90" data-layout="button_count" data-send="false" data-href="http://www.haivl.com/photo/621268" fb-xfbml-state="rendered">
+                                                    <span style="height: 20px; width: 74px;">
+                                                    <iframe id="f86928ce55d9e6" class="fb_ltr" scrolling="no" name="f1e11500f895cfc" style="border: medium none; overflow: hidden; height: 20px; width: 74px;" title="Like this content on Facebook." src="http://www.facebook.com/plugins/like.php?api_key=378808135489760&locale=en_US&sdk=joey&channel_url=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D25%23cb%3Df32a1d382418b22%26origin%3Dhttp%253A%252F%252Fwww.haivl.com%252Ff181e53e1ea1d7c%26domain%3Dwww.haivl.com%26relation%3Dparent.parent&href=http%3A%2F%2Fwww.haivl.com%2Fphoto%2F621268&node_type=link&width=90&layout=button_count&colorscheme=light&show_faces=false&send=false&extended_social_context=false"></iframe>
+                                                    </span>
                                                 </div>
+                                            </div>
                                                 <div class="clear"></div>
                                             </div>
                                         </div>
@@ -155,7 +109,7 @@
                                         <img class="thumbImg" alt="Em dồn hết tâm huyết vào rồi, lần này mà k lên đc thì em... chế tiếp" src="http://s2.haivl.com/data/photos2/20130615/a57488ac43154cc1a199591d54253c8d/medium-b6a4af4a9c124bc39d7654d278789b68-400.jpg">
                                         </a>
                                     </div>
-                                    <div class="info0" style="position: relative;">
+                                    <div class="info1">
                                         <h2><a href="#" target="_blank">Em dồn hết tâm huyết vào rồi, lần này mà k lên đc thì em... chế tiếp </a></h2>
                                         <div class="uploader">Đăng bởi
                                             <a href="#">Lê Hữu Cường</a>6 phút trước
@@ -179,9 +133,9 @@
                                 <div class="clear"></div>
                                 </div> 
                                 <div class="clear"> </div>
-                               <div class="photoListItem" data-id="621268">
+                                 <div class="photoListItem" data-id="621268">
                                     <div class="listItemSeparator"> </div>
-                                    <div class="thumbnail2">
+                                    <div class="thumbnail">
                                         <a target="_blank" href="#">
                                             <img class="thumbImg" alt="WT Hợi????" src="http://s6.haivl.com/data/photos2/20130617/376d6f844b6d43ab8722a8652790faae/medium-fa5de3e493a446dcb0b25599a8b0cdd8-400.jpg">
                                         </a>
@@ -215,12 +169,12 @@
                                 <div class="clear"> </div>
                                  <div class="photoListItem" data-id="608121">
                                     <div class="listItemSeparator"> </div>
-                                    <div class="thumbnail3">
+                                    <div class="thumbnail">
                                         <a target="_blank" href="#">
                                         <img class="thumbImg" alt="Em dồn hết tâm huyết vào rồi, lần này mà k lên đc thì em... chế tiếp" src="http://s2.haivl.com/data/photos2/20130615/a57488ac43154cc1a199591d54253c8d/medium-b6a4af4a9c124bc39d7654d278789b68-400.jpg">
                                         </a>
                                     </div>
-                                    <div class="info3" style="position: relative;">
+                                    <div class="info3">
                                         <h2><a href="#" target="_blank">Em dồn hết tâm huyết vào rồi, lần này mà k lên đc thì em... chế tiếp </a></h2>
                                         <div class="uploader">Đăng bởi
                                             <a href="#">Lê Hữu Cường</a>6 phút trước
@@ -246,12 +200,12 @@
                                 <div class="clear"> </div>
                                  <div class="photoListItem" data-id="608121">
                                     <div class="listItemSeparator"> </div>
-                                    <div class="thumbnail4">
+                                    <div class="thumbnail">
                                         <a target="_blank" href="#">
                                         <img class="thumbImg" alt="Em dồn hết tâm huyết vào rồi, lần này mà k lên đc thì em... chế tiếp" src="http://s2.haivl.com/data/photos2/20130615/a57488ac43154cc1a199591d54253c8d/medium-b6a4af4a9c124bc39d7654d278789b68-400.jpg">
                                         </a>
                                     </div>
-                                    <div class="info4" style="position: relative;">
+                                    <div class="info4">
                                         <h2><a href="#" target="_blank">Em dồn hết tâm huyết vào rồi, lần này mà k lên đc thì em... chế tiếp </a></h2>
                                         <div class="uploader">Đăng bởi
                                             <a href="#">Lê Hữu Cường</a>6 phút trước
@@ -277,12 +231,12 @@
                                 <div class="clear"> </div>
                                  <div class="photoListItem" data-id="608121">
                                     <div class="listItemSeparator"> </div>
-                                    <div class="thumbnail5">
+                                    <div class="thumbnail">
                                         <a target="_blank" href="#">
                                         <img class="thumbImg" alt="Em dồn hết tâm huyết vào rồi, lần này mà k lên đc thì em... chế tiếp" src="http://s2.haivl.com/data/photos2/20130615/a57488ac43154cc1a199591d54253c8d/medium-b6a4af4a9c124bc39d7654d278789b68-400.jpg">
                                         </a>
                                     </div>
-                                    <div class="info5" style="position: relative;">
+                                    <div class="info5">
                                         <h2><a href="#" target="_blank">Em dồn hết tâm huyết vào rồi, lần này mà k lên đc thì em... chế tiếp </a></h2>
                                         <div class="uploader">Đăng bởi
                                             <a href="#">Lê Hữu Cường</a>6 phút trước
@@ -312,49 +266,51 @@
                             <ul class="left">
                                 <li>
                                 © 2013
-                                <a target="_blank" href="http://www.appvl.com/"> Appvl</a>
+                                <a target="_blank" href="#"> Appvl</a>
                             </li>
                             </ul>
                             <ul class="right">
                             <li>
-                            <a href="/contact">Liên hệ</a>
+                            <a href="#">Liên hệ</a>
                             </li>
                             <li>
                             ·
-                            <a href="/about">Giới thiệu</a>
+                            <a href="#">Giới thiệu</a>
                             </li>
                             <li>
                             ·
-                            <a href="/faq">FAQ</a>
+                            <a href="#">FAQ</a>
                             </li>
                             <li>
                             ·
-                            <a href="/tos">Điều khoản</a>
+                            <a href="#">Điều khoản</a>
                             </li>
                             <li>
                             ·
-                            <a href="/cach-vao-facebook-bi-chan-mang-vnpt-viettel-fpt">Cách vào Facebook</a>
+                            <a href="#">Cách vào Facebook</a>
                             </li>
                             <li>
                             ·
-                            <a target="_blank" href="http://www.haivl.com/rss">RSS</a>
+                            <a target="#" href="http://www.haivl.com/rss">RSS</a>
                             </li>
                             <li>
                             ·
-                            <a target="_blank" href="http://www.facebook.com/haivl.com">Facebook</a>
+                            <a target="#" href="http://www.facebook.com/haivl.com">Facebook</a>
                             </li>
                             <li>
                             ·
-                            <a target="_blank" href="http://itunes.apple.com/us/app/haivl.com/id558704602">iOS</a>
+                            <a target="#" href="http://itunes.apple.com/us/app/haivl.com/id558704602">iOS</a>
                             </li>
                             <li>
                             ·
-                            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.appvl.haivl">Android</a>
+                            <a target="#" href="https://play.google.com/store/apps/details?id=com.appvl.haivl">Android</a>
                             </li>
                             </ul>
                             <div class="clear"> </div>
                             </div>
                     </div>
+                    
+                    <!-- Column Right -->
                     <div id="rightColumn">
                         <div class="box infoBox highlightBox">
                             <b>Vào Facebook để duyệt haivl sướng hơn! Bạn không vào được? Xem

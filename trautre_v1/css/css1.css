@@ -489,3 +489,19 @@ div.box h4 {
 #footer ul.right {
     float: right;
 }
+.pos_relative{
+    position: relative;
+}
+.pos_fixed{
+    position: fixed;
+     top: 60px;
+}
+#footer a {
+    color: #555555;
+    font-weight: bold;
+    transition: color 0.2s linear 0s;
+}
+#footer ul.right li {
+    float: left;
+    margin-left: 6px;
+}
