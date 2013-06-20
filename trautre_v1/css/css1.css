@@ -496,6 +496,10 @@ div.box h4 {
     position: fixed;
      top: 60px;
 }
+.pos_fixed1{
+    position: fixed;
+     top: 43px;
+}
 #footer a {
     color: #555555;
     font-weight: bold;
@@ -504,4 +508,203 @@ div.box h4 {
 #footer ul.right li {
     float: left;
     margin-left: 6px;
+}
+div.photoDetails h1 {
+    font-size: 17px;
+    margin: 0 0 5px;
+}
+div.photoDetails .photoInfo {
+    float: left;
+    width: 470px;
+}
+
+div.photoDetails .photoInfo {
+    float: left;
+    width: 470px;
+}
+
+div.photoDetails .stats {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+div.photoDetails .stats .number{
+    color: #BA0069;
+    font-size: 16px;
+}
+div.photoDetails .stats .comments{
+    margin-left: 10px;    
+}
+div.photoDetails div.source{
+    margin: 5px 0;    
+}
+span.source {
+    background: url(../img/source_icon.png) no-repeat transparent;
+    padding-left: 18px;
+    font-size: 14px;
+    font-weight: bold;
+}
+div.photoDetails div.source .text {
+    font-weight: normal;
+}
+div.photoDetails .uploader {
+    float: left;
+    margin-left: 10px;
+    background-color: #EEE;
+    padding: 5px 5px 5px 8px;
+    width: 160px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    color: #545454;
+    margin-bottom: 5px;
+}
+div.photoDetails .uploader img {
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+div.photoDetails .uploader .info {
+    float: left;
+    margin-left: 3px;
+}
+div.photoDetails .uploader .info a {
+    display: block;
+    line-height: 13px;
+}
+div.photoDetails .likeButton {
+    padding: 10px 10px 5px;
+    height: 25px;
+    width: 665px;
+    background-color: white;
+    z-index: 2;
+    border-bottom: 1px solid #DDD;
+    border-top: 1px solid #DDD;
+    background-color: #F4F4F4;
+    margin: 0 -15px 10px;
+}
+div.photoDetails .likeButtonVoting {
+    background-color: #FF9
+}
+div.photoDetails .likeButton .text {
+    line-height: 20px;
+    font-weight: bold;
+    color: #BA0069;
+    float: left;
+    padding-right: 5px;
+    font-size: 15px;
+}
+div.photoDetails .likeButton .fbLikeButton {
+    float: left
+}
+div.photoDetails .description {
+    font-size: 14px;
+    margin: 0 0 10px;
+}
+span.instruction {
+    font-style: italic
+}
+div.photoDetails .stats {
+    font-weight: bold;
+    font-size: 14px;
+    margin: 5px 0;
+}
+div.photoDetails .stats .comments {
+    margin-left: 10px;
+}
+div.photoDetails div.source {
+    margin: 5px 0;
+}
+div.photoDetails div.source .text {
+    font-weight: normal;
+}
+div.photoDetails .stats .number {
+    font-size: 16px;
+    color: #BA0069
+}
+div.photoDetails .stats .text {
+    font-weight: normal;
+}
+div.photoDetails .stats a {
+    font-weight: normal;
+}
+div.photoDetails .navButtons {
+    font-size: 14px;
+    float: right;
+    font-weight: bold;
+    margin-top: 2px;
+}
+div.photoDetails .prev {
+    background: url(../img/prev_icon.png) no-repeat scroll 0 -16px transparent;
+    padding-left: 15px;
+}
+div.photoDetails .prev:hover {
+    background-position: 0 0;
+}
+div.photoDetails .next {
+    background: url(../img/next_icon.png) no-repeat scroll right -16px transparent;
+    padding-right: 15px;
+    margin-left: 10px;
+}
+div.photoDetails .next:hover {
+    background-position: top right;
+}
+.photoDetails .commentContainer h4 {
+    border-bottom: 1px solid #DDD;
+    padding-bottom: 5px;
+    margin: 10px 0 5px;
+}
+.photoDetails .commentContainer .tipComment {
+    margin-bottom: 5px;
+}
+.photoDetails .commentContainer .tipComment a {
+    color: #00A5F0
+}
+.photoDetails .commentContainer .meo {
+    color: #BA0069
+}
+.photoDetails .report {
+    color: #BA0069;
+    font-size: 12px;
+    float: right;
+    background: url(../images/report_icon.png) no-repeat transparent;
+    padding-left: 14px;
+    line-height: 12px;
+    font-weight: bold
+}
+.photoDetails .featuredFanPage {
+    background-color: #EEE;
+    padding: 5px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    margin-bottom: 10px;
+}
+.photoDetails .featuredFanPage h4 {
+    margin: 0 0 5px;
+    color: #BA0069;
+}
+.photoList .featuredFanPage {
+    border-bottom: 1px solid #DDD;
+    margin-bottom: 10px;
+    padding: 10px 0 20px;
+    height: 46px;
+}
+.photoList .featuredFanPage h4 {
+    margin: 0 0 5px;
+    color: #BA0069;
+    font-size: 15px;
+}
+.photoList .featuredFanPage a {
+    color: #00A5F0;
+}
+div.photoImg {
+    margin-bottom: 10px;
+    text-align: center;
+    overflow: hidden
+}
+div.photoImg img {
+    max-width: 650px;
+    margin: 0 auto -34px
 }
