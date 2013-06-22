@@ -708,3 +708,55 @@ div.photoImg img {
     max-width: 650px;
     margin: 0 auto -34px
 }
+/*  Page Upload*/
+.upload .toggleMode {
+    color: #00A5F0;
+    float: right;
+    font-size: 15px;
+}
+.upload .tips {
+    margin: 10px 0 5px;
+}
+.required label:after {
+    color: red;
+    content: " *";
+}
+.inputForm label {
+    cursor: pointer;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+}
+.inputForm input.text, .inputForm textarea, select {
+    border: 1px solid #DDDDDD;
+    border-radius: 5px 5px 5px 5px;
+    display: block;
+    margin: 5px 0;
+    padding: 8px;
+    transition: border-color 0.2s linear 0s;
+}
+
+.inputForm .buttonSet {
+    margin-top: 30px;
+}
+.inputForm .largeWidth {
+    width: 500px;
+}
+.checkboxLabel {
+    display: inline !important;
+}
+.cancelButtons {
+    background-color: transparent;
+    color: #888888;
+    display: inline-block;
+    text-shadow: 0 1px 0 white;
+}
+ul.guidelines {
+    list-style-type: disc;
+    margin: 0 0 10px 15px;
+    padding: 0;
+}
+ul.guidelines li {
+    list-style-type: disc;
+    margin-bottom: 5px;
+}
