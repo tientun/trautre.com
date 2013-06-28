@@ -1,0 +1,150 @@
+/*CONTEST*/
+.contest_list_img{
+	width:64px;
+	height:64px;
+	float:left;
+}
+.add_contest_custom{
+	width:500px;
+	height:auto;
+	padding:14px;
+}
+.add_contest_label_custom{
+	color:#666;
+	font-size:13px;
+	margin-bottom:-5px;
+}
+#ediContestUploadFile_addphoto{
+	display:none;
+}
+
+/*ADDTIONAL PHOTOS*/
+.list_addtional{
+	float:left;
+	width:138px;
+	height:180px;
+	margin-right:20px;
+	margin-bottom:30px;
+}
+.list_addtional .un_release_img, .list_addtional .release_img{
+	float:left;
+	width:128px;
+	height:128px;
+}
+.list_addtional .un_release_img{
+	border:5px solid #bbb;
+}
+.list_addtional .release_img{
+	border:5px solid #BFDE84;
+}
+.list_addtional .un_release_img img, .list_addtional .release_img img{
+	float:left;
+	width:128px;
+	height:128px;
+}
+.list_addtional #view_contest_list_button{
+	float:right;
+	margin-top:-15px;
+	display:none;
+	height:15px;
+}
+.list_addtional .time_release{
+	float:left;
+	margin-top:5px;
+}
+.list_addtional .time_release .time_release_title{
+	float:left;
+	margin-bottom:5px;
+	font-weight:bold;
+}
+.list_addtional .time_release .time_release_content{
+	float:left;
+	width:138px;
+}
+.list_addtional .time_release .time_release_content a.change_date_release_addtional{
+	color:#0D2F72;
+	text-decoration:none;
+}
+.list_addtional .time_release .time_release_content a:hover{
+	text-decoration:underline;
+}
+
+/*SELECT WINNER*/
+.winner_user{
+	color:red; 
+	font-weight:bold;
+}
+
+/*MESSAGE & ERROR*/
+.message {
+    -khtml-border-radius: 3px;              /* Konqueror */
+    -moz-border-radius: 3px;                /* Firefox */
+    -webkit-border-radius: 3px;             /* Safari & Chrome */ 
+    border-radius: 3px;                     /* Opera */
+    font-weight: bold;
+    margin-bottom: 15px;
+    overflow: hidden;
+    padding: 10px 15px 10px 40px;
+}
+.message.errormsg {
+    background: url("../img/icons/icon_missing.png") no-repeat scroll 14px 8px #FFECCE;
+    border: 1px solid #E9C59B;
+    color: #E3302C;
+}
+.message.success {
+    background: url("../img/icons/icon_approve.png") no-repeat scroll 14px 8px #EDFBD8;
+    border: 1px solid #BFDE84;
+    color: #508600;
+}
+.hide_message{
+	display:none;
+	color:red;
+}
+.errorbox{
+	border: 1px solid red;
+}
+span.loading, a.loading__ {
+	background:url("../img/icons/loading_apple.gif") no-repeat; 
+	width:16px; 
+	height:16px;
+}
+.collapsed{
+	display:none;
+}
+.label_message_unread{
+	color:#6095C3;
+	font-weight:bold;
+	cursor:pointer;
+	text-decoration:none;
+}
+.label_message_read{
+	color:#6095C3;
+	cursor:pointer;
+	text-decoration:none;
+}
+
+/*BUTTON*/
+.button_setting img{
+	width:24px;
+}
+
+/*READ MORE*/
+.hide_comment{
+	display:none;
+}
+.read_more_comment{
+	color:#49B6D5;
+	font-size:11px;
+}
+.read_more_comment:hover{
+	text-decoration:underline;
+	cursor:pointer;
+}
+
+/*TIMEPICKER*/
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { height: 25px; margin-bottom: -25px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }

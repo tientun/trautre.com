@@ -1,0 +1,1862 @@
+2012-05-06 03:20:37 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 C:\wamp\www\mrmai.info\products\trackyourlife\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-06 03:20:43 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 C:\wamp\www\mrmai.info\products\trackyourlife\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-06 03:22:01 Error: [MissingPluginException] Plugin DebugKit could not be found.
+#0 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Core\App.php(364): CakePlugin::path('DebugKit')
+#1 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Core\App.php(225): App::pluginPath('DebugKit')
+#2 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Core\App.php(542): App::path('Controller/Comp...', 'DebugKit')
+#3 [internal function]: App::load('ToolbarComponen...')
+#4 [internal function]: spl_autoload_call('ToolbarComponen...')
+#5 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Controller\ComponentCollection.php(99): class_exists('ToolbarComponen...')
+#6 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Controller\ComponentCollection.php(52): ComponentCollection->load('DebugKit.Toolba...', Array)
+#7 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Controller\Controller.php(635): ComponentCollection->init(Object(UsersController))
+#8 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(99): Controller->constructClasses()
+#9 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp\www\mrmai.info\products\trackyourlife\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-05-06 03:22:18 Error: [MissingPluginException] Plugin DebugKit could not be found.
+#0 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Core\App.php(364): CakePlugin::path('DebugKit')
+#1 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Core\App.php(225): App::pluginPath('DebugKit')
+#2 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Core\App.php(542): App::path('Controller/Comp...', 'DebugKit')
+#3 [internal function]: App::load('ToolbarComponen...')
+#4 [internal function]: spl_autoload_call('ToolbarComponen...')
+#5 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Controller\ComponentCollection.php(99): class_exists('ToolbarComponen...')
+#6 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Controller\ComponentCollection.php(52): ComponentCollection->load('DebugKit.Toolba...', Array)
+#7 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Controller\Controller.php(635): ComponentCollection->init(Object(UsersController))
+#8 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(99): Controller->constructClasses()
+#9 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp\www\mrmai.info\products\trackyourlife\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-05-06 03:22:19 Error: [MissingPluginException] Plugin DebugKit could not be found.
+#0 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Core\App.php(364): CakePlugin::path('DebugKit')
+#1 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Core\App.php(225): App::pluginPath('DebugKit')
+#2 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Core\App.php(542): App::path('Controller/Comp...', 'DebugKit')
+#3 [internal function]: App::load('ToolbarComponen...')
+#4 [internal function]: spl_autoload_call('ToolbarComponen...')
+#5 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Controller\ComponentCollection.php(99): class_exists('ToolbarComponen...')
+#6 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Controller\ComponentCollection.php(52): ComponentCollection->load('DebugKit.Toolba...', Array)
+#7 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Controller\Controller.php(635): ComponentCollection->init(Object(UsersController))
+#8 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(99): Controller->constructClasses()
+#9 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp\www\mrmai.info\products\trackyourlife\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-05-06 03:22:37 Error: [MissingPluginException] Plugin DebugKit could not be found.
+#0 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Core\App.php(364): CakePlugin::path('DebugKit')
+#1 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Core\App.php(225): App::pluginPath('DebugKit')
+#2 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Core\App.php(542): App::path('Controller/Comp...', 'DebugKit')
+#3 [internal function]: App::load('ToolbarComponen...')
+#4 [internal function]: spl_autoload_call('ToolbarComponen...')
+#5 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Controller\ComponentCollection.php(99): class_exists('ToolbarComponen...')
+#6 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Controller\ComponentCollection.php(52): ComponentCollection->load('DebugKit.Toolba...', Array)
+#7 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Controller\Controller.php(635): ComponentCollection->init(Object(UsersController))
+#8 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(99): Controller->constructClasses()
+#9 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp\www\mrmai.info\products\trackyourlife\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-05-06 03:22:49 Error: [MissingPluginException] Plugin DebugKit could not be found.
+#0 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Core\App.php(364): CakePlugin::path('DebugKit')
+#1 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Core\App.php(225): App::pluginPath('DebugKit')
+#2 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Core\App.php(542): App::path('Controller/Comp...', 'DebugKit')
+#3 [internal function]: App::load('ToolbarComponen...')
+#4 [internal function]: spl_autoload_call('ToolbarComponen...')
+#5 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Controller\ComponentCollection.php(99): class_exists('ToolbarComponen...')
+#6 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Controller\ComponentCollection.php(52): ComponentCollection->load('DebugKit.Toolba...', Array)
+#7 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Controller\Controller.php(635): ComponentCollection->init(Object(UsersController))
+#8 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(99): Controller->constructClasses()
+#9 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp\www\mrmai.info\products\trackyourlife\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-05-06 03:28:00 Error: [MissingActionException] Action CategoriesController::index() could not be found.
+#0 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mrmai.info\products\trackyourlife\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-06 03:30:11 Error: [MissingViewException] View file "C:\wamp\www\mrmai.info\products\trackyourlife\app\View\Categories\admin_index.ctp" is missing.
+#0 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 C:\wamp\www\mrmai.info\products\trackyourlife\app\Plugin\debug_kit\View\DebugView.php(82): View->render(NULL, NULL)
+#2 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Controller\Controller.php(959): DebugView->render(NULL, NULL)
+#3 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#4 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\mrmai.info\products\trackyourlife\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-05-06 03:34:25 Error: [MissingControllerException] Controller class ContestsController could not be found.
+#0 C:\wamp\www\mrmai.info\products\trackyourlife\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-12 04:06:39 Error: [NotFoundException] Invalid user cat
+#0 [internal function]: UserCatsController->admin_delete('0')
+#1 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(UserCatsController), Array)
+#2 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UserCatsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\mrmai.info\products\trackyourlife\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-12 05:59:08 Error: [MissingActionException] Action UserDataController::admin_overview() could not be found.
+#0 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UserDataController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mrmai.info\products\trackyourlife\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-12 05:59:56 Error: [MissingActionException] Action UserDataController::admin_overview() could not be found.
+#0 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UserDataController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mrmai.info\products\trackyourlife\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-12 05:59:57 Error: [MissingActionException] Action UserDataController::admin_overview() could not be found.
+#0 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UserDataController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mrmai.info\products\trackyourlife\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-12 05:59:59 Error: [MissingActionException] Action UserDataController::admin_overview() could not be found.
+#0 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UserDataController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mrmai.info\products\trackyourlife\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-12 06:00:20 Error: [MissingActionException] Action UserDataController::admin_overview() could not be found.
+#0 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UserDataController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mrmai.info\products\trackyourlife\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-12 06:00:30 Error: [MissingActionException] Action UserDataController::admin_overview() could not be found.
+#0 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UserDataController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mrmai.info\products\trackyourlife\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-12 06:00:53 Error: [MissingActionException] Action UserDataController::admin_overview() could not be found.
+#0 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UserDataController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mrmai.info\products\trackyourlife\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-12 06:00:55 Error: [MissingActionException] Action UserDataController::admin_overview() could not be found.
+#0 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UserDataController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mrmai.info\products\trackyourlife\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-12 06:00:57 Error: [MissingActionException] Action UserDataController::admin_overview() could not be found.
+#0 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UserDataController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mrmai.info\products\trackyourlife\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-12 06:00:59 Error: [MissingActionException] Action UserDataController::admin_overview() could not be found.
+#0 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UserDataController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mrmai.info\products\trackyourlife\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-12 06:19:47 Error: [MissingActionException] Action UserDataController::admin_overview() could not be found.
+#0 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UserDataController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mrmai.info\products\trackyourlife\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-12 06:19:47 Error: [MissingActionException] Action UserDataController::admin_overview() could not be found.
+#0 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UserDataController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mrmai.info\products\trackyourlife\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-12 10:26:39 Error: [MissingViewException] View file "C:\wamp\www\mrmai.info\products\trackyourlife\app\View\UserData\admin_search_by_chart.ctp" is missing.
+#0 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 C:\wamp\www\mrmai.info\products\trackyourlife\app\Plugin\debug_kit\View\DebugView.php(82): View->render(NULL, NULL)
+#2 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Controller\Controller.php(959): DebugView->render(NULL, NULL)
+#3 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#4 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UserDataController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\mrmai.info\products\trackyourlife\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-05-12 10:27:11 Error: [MissingViewException] View file "C:\wamp\www\mrmai.info\products\trackyourlife\app\View\UserData\admin_search_by_chart.ctp" is missing.
+#0 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 C:\wamp\www\mrmai.info\products\trackyourlife\app\Plugin\debug_kit\View\DebugView.php(82): View->render(NULL, NULL)
+#2 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Controller\Controller.php(959): DebugView->render(NULL, NULL)
+#3 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#4 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UserDataController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\mrmai.info\products\trackyourlife\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-05-13 08:27:12 Error: [MissingViewException] View file "C:\wamp\www\mrmai.info\products\trackyourlife\app\View\UserData\admin_search_by_chart.ctp" is missing.
+#0 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 C:\wamp\www\mrmai.info\products\trackyourlife\app\Plugin\debug_kit\View\DebugView.php(82): View->render(NULL, NULL)
+#2 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Controller\Controller.php(959): DebugView->render(NULL, NULL)
+#3 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#4 C:\wamp\www\mrmai.info\products\trackyourlife\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UserDataController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\mrmai.info\products\trackyourlife\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-05-20 02:47:28 Error: [MissingControllerException] Controller class PagesController could not be found.
+#0 C:\wamp\www\cakeipad\phuongtien\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-20 02:47:36 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 C:\wamp\www\cakeipad\phuongtien\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-20 03:16:27 Error: [MissingControllerException] Controller class UserCatsController could not be found.
+#0 C:\wamp\www\cakeipad\phuongtien\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-20 03:16:31 Error: [MissingControllerException] Controller class CategoriesController could not be found.
+#0 C:\wamp\www\cakeipad\phuongtien\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-20 03:16:32 Error: [MissingControllerException] Controller class UserDataController could not be found.
+#0 C:\wamp\www\cakeipad\phuongtien\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-20 03:16:34 Error: [MissingControllerException] Controller class CategoriesController could not be found.
+#0 C:\wamp\www\cakeipad\phuongtien\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-20 03:16:43 Error: [MissingControllerException] Controller class CategoriesController could not be found.
+#0 C:\wamp\www\cakeipad\phuongtien\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-20 03:19:18 Error: [MissingControllerException] Controller class CategoriesController could not be found.
+#0 C:\wamp\www\cakeipad\phuongtien\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-20 04:02:48 Error: [MissingControllerException] Controller class PagesController could not be found.
+#0 C:\wamp\www\cakeipad\phuongtien\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-20 04:03:03 Error: [MissingActionException] Action UsersController::logout() could not be found.
+#0 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakeipad\phuongtien\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-20 04:08:10 Error: [MissingControllerException] Controller class AdminsController could not be found.
+#0 C:\wamp\www\cakeipad\phuongtien\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-20 04:10:10 Error: [MissingActionException] Action UsersController::login() could not be found.
+#0 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakeipad\phuongtien\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-20 04:12:02 Error: [MissingActionException] Action UsersController::login() could not be found.
+#0 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakeipad\phuongtien\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-20 04:12:04 Error: [MissingActionException] Action UsersController::login() could not be found.
+#0 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakeipad\phuongtien\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-20 04:12:05 Error: [MissingActionException] Action UsersController::login() could not be found.
+#0 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakeipad\phuongtien\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-20 04:12:07 Error: [MissingActionException] Action UsersController::login() could not be found.
+#0 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakeipad\phuongtien\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-20 04:12:08 Error: [MissingActionException] Action UsersController::login() could not be found.
+#0 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakeipad\phuongtien\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-20 04:12:51 Error: [MissingActionException] Action UsersController::login() could not be found.
+#0 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakeipad\phuongtien\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-20 04:14:41 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Admin.username' in 'where clause'
+#0 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `Admin`....', Array)
+#2 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('SELECT `Admin`....', Array, Array)
+#3 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Model\Datasource\DboSource.php(1058): DboSource->fetchAll('SELECT `Admin`....', false)
+#4 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Model\Model.php(2663): DboSource->read(Object(Admin), Array)
+#5 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Controller\Component\Auth\BaseAuthenticate.php(86): Model->find('first', Array)
+#6 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Controller\Component\Auth\FormAuthenticate.php(65): BaseAuthenticate->_findUser('phuongtien', 'admin')
+#7 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Controller\Component\AuthComponent.php(640): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Controller\Component\AuthComponent.php(514): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\cakeipad\phuongtien\app\Controller\AdminsController.php(13): AuthComponent->login()
+#10 [internal function]: AdminsController->login()
+#11 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AdminsController), Array)
+#12 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakeipad\phuongtien\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2012-05-20 04:15:06 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Admin.username' in 'where clause'
+#0 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `Admin`....', Array)
+#2 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('SELECT `Admin`....', Array, Array)
+#3 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Model\Datasource\DboSource.php(1058): DboSource->fetchAll('SELECT `Admin`....', false)
+#4 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Model\Model.php(2663): DboSource->read(Object(Admin), Array)
+#5 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Controller\Component\Auth\BaseAuthenticate.php(86): Model->find('first', Array)
+#6 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Controller\Component\Auth\FormAuthenticate.php(65): BaseAuthenticate->_findUser('phuongtien', 'admin')
+#7 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Controller\Component\AuthComponent.php(640): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Controller\Component\AuthComponent.php(514): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\cakeipad\phuongtien\app\Controller\AdminsController.php(13): AuthComponent->login()
+#10 [internal function]: AdminsController->login()
+#11 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AdminsController), Array)
+#12 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\cakeipad\phuongtien\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakeipad\phuongtien\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2012-05-25 02:42:20 Error: [MissingControllerException] Controller class PlacesController could not be found.
+#0 C:\wamp\www\cakeipad\vule\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-26 01:18:53 Error: [MissingControllerException] Controller class PostsController could not be found.
+#0 C:\wamp\www\cakeipad\tientun\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-26 01:42:19 Error: [MissingControllerException] Controller class CurrencysController could not be found.
+#0 C:\wamp\www\cakeipad\tientun\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-26 01:42:19 Error: [MissingControllerException] Controller class CurrencysController could not be found.
+#0 C:\wamp\www\cakeipad\tientun\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-26 02:39:34 Error: image is not an array: Form must be multipart/form-data
+2012-05-26 02:42:03 Error: image is not an array: Form must be multipart/form-data
+2012-05-26 02:42:28 Error: image is not an array: Form must be multipart/form-data
+2012-05-26 02:44:14 Error: image is not an array: Form must be multipart/form-data
+2012-05-26 02:45:00 Error: image is not an array: Form must be multipart/form-data
+2012-05-26 02:56:24 Error: image is not an array: Form must be multipart/form-data
+2012-05-26 02:56:29 Error: image is not an array: Form must be multipart/form-data
+2012-05-26 02:58:20 Error: image is not an array: Form must be multipart/form-data
+2012-05-26 02:58:38 Error: image is not an array: Form must be multipart/form-data
+2012-05-26 03:18:23 Error: [MissingPluginException] Plugin CakeAttachment could not be found.
+#0 C:\wamp\www\cakeipad\tientun\lib\Cake\Core\App.php(364): CakePlugin::path('CakeAttachment')
+#1 C:\wamp\www\cakeipad\tientun\lib\Cake\Core\App.php(225): App::pluginPath('CakeAttachment')
+#2 C:\wamp\www\cakeipad\tientun\lib\Cake\Core\App.php(542): App::path('Model/Behavior', 'CakeAttachment')
+#3 [internal function]: App::load('UploadBehavior')
+#4 [internal function]: spl_autoload_call('UploadBehavior')
+#5 C:\wamp\www\cakeipad\tientun\lib\Cake\Model\BehaviorCollection.php(121): class_exists('UploadBehavior')
+#6 C:\wamp\www\cakeipad\tientun\lib\Cake\Model\BehaviorCollection.php(68): BehaviorCollection->load('CakeAttachment....', Array)
+#7 C:\wamp\www\cakeipad\tientun\lib\Cake\Model\Model.php(725): BehaviorCollection->init('Category', Array)
+#8 [internal function]: Model->__construct(Array)
+#9 C:\wamp\www\cakeipad\tientun\lib\Cake\Utility\ClassRegistry.php(156): ReflectionClass->newInstance(Array)
+#10 C:\wamp\www\cakeipad\tientun\lib\Cake\Controller\Controller.php(734): ClassRegistry::init(Array)
+#11 C:\wamp\www\cakeipad\tientun\lib\Cake\Controller\Controller.php(366): Controller->loadModel('Category')
+#12 C:\wamp\www\cakeipad\tientun\lib\Cake\Controller\Controller.php(404): Controller->__isset('Category')
+#13 C:\wamp\www\cakeipad\tientun\app\Controller\CategoriesController.php(17): Controller->__get('Category')
+#14 [internal function]: CategoriesController->beforeFilter(Object(CakeEvent))
+#15 C:\wamp\www\cakeipad\tientun\lib\Cake\Event\CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#16 C:\wamp\www\cakeipad\tientun\lib\Cake\Controller\Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#17 C:\wamp\www\cakeipad\tientun\lib\Cake\Routing\Dispatcher.php(100): Controller->startupProcess()
+#18 C:\wamp\www\cakeipad\tientun\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#19 C:\wamp\www\cakeipad\tientun\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2012-05-26 03:41:23 Error: [MissingControllerException] Controller class SWFUploadV2.2.0.1SamplesController could not be found.
+#0 C:\wamp\www\cakeipad\tientun\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-26 03:42:23 Error: [MissingControllerException] Controller class SWFUploadV2.2.0.1SamplesController could not be found.
+#0 C:\wamp\www\cakeipad\tientun\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-27 07:20:43 Error: [MissingConnectionException] Database connection "SQLSTATE[42000] [1049] Unknown database 'thuyvi_personal_tientun'" is missing, or could not be created.
+#0 G:\WWW\sshop\admincp\lib\Cake\Model\Datasource\DboSource.php(245): Mysql->connect()
+#1 G:\WWW\sshop\admincp\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 G:\WWW\sshop\admincp\lib\Cake\Model\Model.php(3382): ConnectionManager::getDataSource('default')
+#3 G:\WWW\sshop\admincp\lib\Cake\Model\Model.php(1083): Model->setDataSource('default')
+#4 G:\WWW\sshop\admincp\lib\Cake\Model\Model.php(3408): Model->setSource('admins')
+#5 G:\WWW\sshop\admincp\lib\Cake\Model\Model.php(1276): Model->getDataSource()
+#6 G:\WWW\sshop\admincp\lib\Cake\View\Helper\FormHelper.php(196): Model->schema()
+#7 G:\WWW\sshop\admincp\lib\Cake\View\Helper\FormHelper.php(450): FormHelper->_introspectModel('Admin', 'fields')
+#8 G:\WWW\sshop\admincp\app\View\Layouts\login.ctp(49): FormHelper->create('Admin')
+#9 G:\WWW\sshop\admincp\lib\Cake\View\View.php(908): include('G:\WWW\sshop\ad...')
+#10 G:\WWW\sshop\admincp\lib\Cake\View\View.php(872): View->_evaluate('G:\WWW\sshop\ad...', Array)
+#11 G:\WWW\sshop\admincp\app\Plugin\debug_kit\View\DebugView.php(43): View->_render('G:\WWW\sshop\ad...', Array)
+#12 G:\WWW\sshop\admincp\lib\Cake\View\View.php(527): DebugView->_render('G:\WWW\sshop\ad...')
+#13 G:\WWW\sshop\admincp\lib\Cake\View\View.php(471): View->renderLayout('', 'login')
+#14 G:\WWW\sshop\admincp\app\Plugin\debug_kit\View\DebugView.php(82): View->render(NULL, NULL)
+#15 G:\WWW\sshop\admincp\lib\Cake\Controller\Controller.php(959): DebugView->render(NULL, NULL)
+#16 G:\WWW\sshop\admincp\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#17 G:\WWW\sshop\admincp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest), Object(CakeResponse))
+#18 G:\WWW\sshop\admincp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2012-05-27 07:22:01 Error: [MissingTableException] Table admins for model Admin was not found in datasource default.
+#0 G:\WWW\sshop\admincp\lib\Cake\Model\Model.php(3408): Model->setSource('admins')
+#1 G:\WWW\sshop\admincp\lib\Cake\Model\Model.php(1276): Model->getDataSource()
+#2 G:\WWW\sshop\admincp\lib\Cake\View\Helper\FormHelper.php(196): Model->schema()
+#3 G:\WWW\sshop\admincp\lib\Cake\View\Helper\FormHelper.php(450): FormHelper->_introspectModel('Admin', 'fields')
+#4 G:\WWW\sshop\admincp\app\View\Layouts\login.ctp(49): FormHelper->create('Admin')
+#5 G:\WWW\sshop\admincp\lib\Cake\View\View.php(908): include('G:\WWW\sshop\ad...')
+#6 G:\WWW\sshop\admincp\lib\Cake\View\View.php(872): View->_evaluate('G:\WWW\sshop\ad...', Array)
+#7 G:\WWW\sshop\admincp\app\Plugin\debug_kit\View\DebugView.php(43): View->_render('G:\WWW\sshop\ad...', Array)
+#8 G:\WWW\sshop\admincp\lib\Cake\View\View.php(527): DebugView->_render('G:\WWW\sshop\ad...')
+#9 G:\WWW\sshop\admincp\lib\Cake\View\View.php(471): View->renderLayout('', 'login')
+#10 G:\WWW\sshop\admincp\app\Plugin\debug_kit\View\DebugView.php(82): View->render(NULL, NULL)
+#11 G:\WWW\sshop\admincp\lib\Cake\Controller\Controller.php(959): DebugView->render(NULL, NULL)
+#12 G:\WWW\sshop\admincp\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#13 G:\WWW\sshop\admincp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest), Object(CakeResponse))
+#14 G:\WWW\sshop\admincp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2012-05-27 07:22:17 Error: [MissingTableException] Table admins for model Admin was not found in datasource default.
+#0 G:\WWW\sshop\admincp\lib\Cake\Model\Model.php(3408): Model->setSource('admins')
+#1 G:\WWW\sshop\admincp\lib\Cake\Model\Model.php(1276): Model->getDataSource()
+#2 G:\WWW\sshop\admincp\lib\Cake\View\Helper\FormHelper.php(196): Model->schema()
+#3 G:\WWW\sshop\admincp\lib\Cake\View\Helper\FormHelper.php(450): FormHelper->_introspectModel('Admin', 'fields')
+#4 G:\WWW\sshop\admincp\app\View\Layouts\login.ctp(49): FormHelper->create('Admin')
+#5 G:\WWW\sshop\admincp\lib\Cake\View\View.php(908): include('G:\WWW\sshop\ad...')
+#6 G:\WWW\sshop\admincp\lib\Cake\View\View.php(872): View->_evaluate('G:\WWW\sshop\ad...', Array)
+#7 G:\WWW\sshop\admincp\app\Plugin\debug_kit\View\DebugView.php(43): View->_render('G:\WWW\sshop\ad...', Array)
+#8 G:\WWW\sshop\admincp\lib\Cake\View\View.php(527): DebugView->_render('G:\WWW\sshop\ad...')
+#9 G:\WWW\sshop\admincp\lib\Cake\View\View.php(471): View->renderLayout('', 'login')
+#10 G:\WWW\sshop\admincp\app\Plugin\debug_kit\View\DebugView.php(82): View->render(NULL, NULL)
+#11 G:\WWW\sshop\admincp\lib\Cake\Controller\Controller.php(959): DebugView->render(NULL, NULL)
+#12 G:\WWW\sshop\admincp\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#13 G:\WWW\sshop\admincp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest), Object(CakeResponse))
+#14 G:\WWW\sshop\admincp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2012-05-27 07:23:15 Error: [MissingTableException] Table admins for model Admin was not found in datasource default.
+#0 G:\WWW\sshop\admincp\lib\Cake\Model\Model.php(3408): Model->setSource('admins')
+#1 G:\WWW\sshop\admincp\lib\Cake\Model\Model.php(1276): Model->getDataSource()
+#2 G:\WWW\sshop\admincp\lib\Cake\View\Helper\FormHelper.php(196): Model->schema()
+#3 G:\WWW\sshop\admincp\lib\Cake\View\Helper\FormHelper.php(450): FormHelper->_introspectModel('Admin', 'fields')
+#4 G:\WWW\sshop\admincp\app\View\Layouts\login.ctp(49): FormHelper->create('Admin')
+#5 G:\WWW\sshop\admincp\lib\Cake\View\View.php(908): include('G:\WWW\sshop\ad...')
+#6 G:\WWW\sshop\admincp\lib\Cake\View\View.php(872): View->_evaluate('G:\WWW\sshop\ad...', Array)
+#7 G:\WWW\sshop\admincp\app\Plugin\debug_kit\View\DebugView.php(43): View->_render('G:\WWW\sshop\ad...', Array)
+#8 G:\WWW\sshop\admincp\lib\Cake\View\View.php(527): DebugView->_render('G:\WWW\sshop\ad...')
+#9 G:\WWW\sshop\admincp\lib\Cake\View\View.php(471): View->renderLayout('', 'login')
+#10 G:\WWW\sshop\admincp\app\Plugin\debug_kit\View\DebugView.php(82): View->render(NULL, NULL)
+#11 G:\WWW\sshop\admincp\lib\Cake\Controller\Controller.php(959): DebugView->render(NULL, NULL)
+#12 G:\WWW\sshop\admincp\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#13 G:\WWW\sshop\admincp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest), Object(CakeResponse))
+#14 G:\WWW\sshop\admincp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2012-05-27 07:27:17 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Admin.password' in 'where clause'
+#0 G:\WWW\sshop\admincp\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 G:\WWW\sshop\admincp\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `Admin`....', Array)
+#2 G:\WWW\sshop\admincp\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('SELECT `Admin`....', Array, Array)
+#3 G:\WWW\sshop\admincp\lib\Cake\Model\Datasource\DboSource.php(1058): DboSource->fetchAll('SELECT `Admin`....', false)
+#4 G:\WWW\sshop\admincp\lib\Cake\Model\Model.php(2663): DboSource->read(Object(Admin), Array)
+#5 G:\WWW\sshop\admincp\lib\Cake\Controller\Component\Auth\BaseAuthenticate.php(86): Model->find('first', Array)
+#6 G:\WWW\sshop\admincp\lib\Cake\Controller\Component\Auth\FormAuthenticate.php(65): BaseAuthenticate->_findUser('tientun', '12345')
+#7 G:\WWW\sshop\admincp\lib\Cake\Controller\Component\AuthComponent.php(640): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#8 G:\WWW\sshop\admincp\lib\Cake\Controller\Component\AuthComponent.php(514): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#9 G:\WWW\sshop\admincp\app\Controller\AdminsController.php(13): AuthComponent->login()
+#10 [internal function]: AdminsController->login()
+#11 G:\WWW\sshop\admincp\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(AdminsController), Array)
+#12 G:\WWW\sshop\admincp\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#13 G:\WWW\sshop\admincp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest), Object(CakeResponse))
+#14 G:\WWW\sshop\admincp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2012-05-27 17:01:10 Error: [NotFoundException] Invalid shop config
+#0 [internal function]: ShopConfigsController->view('Si?u th? sshop')
+#1 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ShopConfigsController), Array)
+#2 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(ShopConfigsController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/vnfunnet/public_html/datn/admincp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-27 17:01:21 Error: [NotFoundException] Invalid shop config
+#0 [internal function]: ShopConfigsController->edit('Si?u th? sshop')
+#1 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ShopConfigsController), Array)
+#2 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(ShopConfigsController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/vnfunnet/public_html/datn/admincp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-28 01:47:26 Error: [MissingPluginException] Plugin Upload could not be found.
+#0 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Core/App.php(364): CakePlugin::path('Upload')
+#1 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Core/App.php(225): App::pluginPath('Upload')
+#2 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Core/App.php(542): App::path('Model/Behavior', 'Upload')
+#3 [internal function]: App::load('UploadBehavior')
+#4 [internal function]: spl_autoload_call('UploadBehavior')
+#5 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/BehaviorCollection.php(121): class_exists('UploadBehavior')
+#6 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/BehaviorCollection.php(68): BehaviorCollection->load('Upload.Upload', Array)
+#7 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Model.php(725): BehaviorCollection->init('Category', Array)
+#8 [internal function]: Model->__construct(Array)
+#9 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Utility/ClassRegistry.php(156): ReflectionClass->newInstance(Array)
+#10 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Controller/Controller.php(734): ClassRegistry::init(Array)
+#11 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Controller/Controller.php(366): Controller->loadModel('Category')
+#12 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Controller/Controller.php(404): Controller->__isset('Category')
+#13 /home/vnfunnet/public_html/datn/admincp/app/Controller/CategoriesController.php(17): Controller->__get('Category')
+#14 [internal function]: CategoriesController->beforeFilter(Object(CakeEvent))
+#15 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Event/CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#16 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Controller/Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#17 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Routing/Dispatcher.php(100): Controller->startupProcess()
+#18 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#19 /home/vnfunnet/public_html/datn/admincp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2012-05-28 01:47:26 Error: [MissingPluginException] Plugin Upload could not be found.
+#0 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Core/App.php(364): CakePlugin::path('Upload')
+#1 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Core/App.php(225): App::pluginPath('Upload')
+#2 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Core/App.php(542): App::path('Model/Behavior', 'Upload')
+#3 [internal function]: App::load('UploadBehavior')
+#4 [internal function]: spl_autoload_call('UploadBehavior')
+#5 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/BehaviorCollection.php(121): class_exists('UploadBehavior')
+#6 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/BehaviorCollection.php(68): BehaviorCollection->load('Upload.Upload', Array)
+#7 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Model.php(725): BehaviorCollection->init('Category', Array)
+#8 [internal function]: Model->__construct(Array)
+#9 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Utility/ClassRegistry.php(156): ReflectionClass->newInstance(Array)
+#10 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Controller/Controller.php(734): ClassRegistry::init(Array)
+#11 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Controller/Controller.php(366): Controller->loadModel('Category')
+#12 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Controller/Controller.php(404): Controller->__isset('Category')
+#13 /home/vnfunnet/public_html/datn/admincp/app/Controller/CategoriesController.php(17): Controller->__get('Category')
+#14 [internal function]: CategoriesController->beforeFilter(Object(CakeEvent))
+#15 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Event/CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#16 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Controller/Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#17 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Routing/Dispatcher.php(100): Controller->startupProcess()
+#18 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#19 /home/vnfunnet/public_html/datn/admincp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2012-05-28 02:09:53 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `vn...', Array)
+#2 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Datasource/DboSource.php(985): DboSource->execute('INSERT INTO `vn...')
+#3 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Model.php(1705): DboSource->create(Object(Category), Array, Array)
+#4 /home/vnfunnet/public_html/datn/admincp/app/Controller/CategoriesController.php(67): Model->save(Array)
+#5 [internal function]: CategoriesController->add()
+#6 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#7 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/vnfunnet/public_html/datn/admincp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-05-28 02:12:53 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `vn...', Array)
+#2 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Datasource/DboSource.php(985): DboSource->execute('INSERT INTO `vn...')
+#3 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Model.php(1705): DboSource->create(Object(Category), Array, Array)
+#4 /home/vnfunnet/public_html/datn/admincp/app/Controller/CategoriesController.php(67): Model->save(Array)
+#5 [internal function]: CategoriesController->add()
+#6 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#7 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/vnfunnet/public_html/datn/admincp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-05-28 02:30:35 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `vn...', Array)
+#2 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Datasource/DboSource.php(985): DboSource->execute('INSERT INTO `vn...')
+#3 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Model.php(1705): DboSource->create(Object(Category), Array, Array)
+#4 /home/vnfunnet/public_html/datn/admincp/app/Controller/CategoriesController.php(67): Model->save(Array)
+#5 [internal function]: CategoriesController->add()
+#6 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#7 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/vnfunnet/public_html/datn/admincp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-05-28 02:32:28 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `vn...', Array)
+#2 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Datasource/DboSource.php(985): DboSource->execute('INSERT INTO `vn...')
+#3 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Model.php(1705): DboSource->create(Object(Category), Array, Array)
+#4 /home/vnfunnet/public_html/datn/admincp/app/Controller/CategoriesController.php(67): Model->save(Array)
+#5 [internal function]: CategoriesController->add()
+#6 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#7 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/vnfunnet/public_html/datn/admincp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-05-28 02:34:56 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `vn...', Array)
+#2 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Datasource/DboSource.php(985): DboSource->execute('INSERT INTO `vn...')
+#3 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Model.php(1705): DboSource->create(Object(Category), Array, Array)
+#4 /home/vnfunnet/public_html/datn/admincp/app/Controller/CategoriesController.php(69): Model->save(Array)
+#5 [internal function]: CategoriesController->add()
+#6 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#7 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/vnfunnet/public_html/datn/admincp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-05-28 02:36:20 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `vn...', Array)
+#2 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Datasource/DboSource.php(985): DboSource->execute('INSERT INTO `vn...')
+#3 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Model.php(1705): DboSource->create(Object(Category), Array, Array)
+#4 /home/vnfunnet/public_html/datn/admincp/app/Controller/CategoriesController.php(69): Model->save(Array)
+#5 [internal function]: CategoriesController->add()
+#6 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#7 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/vnfunnet/public_html/datn/admincp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-05-28 02:39:19 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `vn...', Array)
+#2 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Datasource/DboSource.php(985): DboSource->execute('INSERT INTO `vn...')
+#3 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Model.php(1705): DboSource->create(Object(Category), Array, Array)
+#4 /home/vnfunnet/public_html/datn/admincp/app/Controller/CategoriesController.php(69): Model->save(Array)
+#5 [internal function]: CategoriesController->add()
+#6 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#7 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/vnfunnet/public_html/datn/admincp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-05-28 02:40:50 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `vn...', Array)
+#2 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Datasource/DboSource.php(985): DboSource->execute('INSERT INTO `vn...')
+#3 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Model.php(1705): DboSource->create(Object(Category), Array, Array)
+#4 /home/vnfunnet/public_html/datn/admincp/app/Controller/CategoriesController.php(69): Model->save(Array)
+#5 [internal function]: CategoriesController->add()
+#6 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#7 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/vnfunnet/public_html/datn/admincp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-05-28 03:27:19 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+#0 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/ConnectionManager.php(94): ConnectionManager::_getConnectionObject('default')
+#1 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Model.php(3382): ConnectionManager::getDataSource('default')
+#2 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Model.php(1083): Model->setDataSource('default')
+#3 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Model.php(3408): Model->setSource('categories')
+#4 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Model.php(2663): Model->getDataSource()
+#5 /home/vnfunnet/public_html/datn/admincp/app/Controller/CategoriesController.php(17): Model->find('list', Array)
+#6 [internal function]: CategoriesController->beforeFilter(Object(CakeEvent))
+#7 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Event/CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#8 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Controller/Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#9 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Routing/Dispatcher.php(100): Controller->startupProcess()
+#10 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/vnfunnet/public_html/datn/admincp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-05-28 03:27:23 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+#0 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/ConnectionManager.php(94): ConnectionManager::_getConnectionObject('default')
+#1 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Model.php(3382): ConnectionManager::getDataSource('default')
+#2 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Model.php(1083): Model->setDataSource('default')
+#3 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Model.php(3408): Model->setSource('categories')
+#4 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Model.php(2663): Model->getDataSource()
+#5 /home/vnfunnet/public_html/datn/admincp/app/Controller/CategoriesController.php(17): Model->find('list', Array)
+#6 [internal function]: CategoriesController->beforeFilter(Object(CakeEvent))
+#7 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Event/CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#8 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Controller/Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#9 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Routing/Dispatcher.php(100): Controller->startupProcess()
+#10 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/vnfunnet/public_html/datn/admincp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-05-28 03:27:47 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+#0 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/ConnectionManager.php(94): ConnectionManager::_getConnectionObject('default')
+#1 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Model.php(3382): ConnectionManager::getDataSource('default')
+#2 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Model.php(1083): Model->setDataSource('default')
+#3 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Model.php(3408): Model->setSource('users')
+#4 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Model.php(2663): Model->getDataSource()
+#5 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Controller/Component/PaginatorComponent.php(172): Model->find('all', Array)
+#6 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Controller/Controller.php(1084): PaginatorComponent->paginate(NULL, Array, Array)
+#7 /home/vnfunnet/public_html/datn/admincp/app/Controller/UsersController.php(18): Controller->paginate()
+#8 [internal function]: UsersController->index()
+#9 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#12 /home/vnfunnet/public_html/datn/admincp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-05-28 03:27:48 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+#0 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/ConnectionManager.php(94): ConnectionManager::_getConnectionObject('default')
+#1 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Model.php(3382): ConnectionManager::getDataSource('default')
+#2 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Model.php(1083): Model->setDataSource('default')
+#3 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Model.php(3408): Model->setSource('categories')
+#4 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Model.php(2663): Model->getDataSource()
+#5 /home/vnfunnet/public_html/datn/admincp/app/Controller/CategoriesController.php(17): Model->find('list', Array)
+#6 [internal function]: CategoriesController->beforeFilter(Object(CakeEvent))
+#7 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Event/CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#8 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Controller/Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#9 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Routing/Dispatcher.php(100): Controller->startupProcess()
+#10 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/vnfunnet/public_html/datn/admincp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-05-28 03:27:49 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+#0 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/ConnectionManager.php(94): ConnectionManager::_getConnectionObject('default')
+#1 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Model.php(3382): ConnectionManager::getDataSource('default')
+#2 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Model.php(1083): Model->setDataSource('default')
+#3 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Model.php(3408): Model->setSource('products')
+#4 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Model.php(2663): Model->getDataSource()
+#5 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Controller/Component/PaginatorComponent.php(172): Model->find('all', Array)
+#6 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Controller/Controller.php(1084): PaginatorComponent->paginate(NULL, Array, Array)
+#7 /home/vnfunnet/public_html/datn/admincp/app/Controller/ProductsController.php(18): Controller->paginate()
+#8 [internal function]: ProductsController->index()
+#9 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#10 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#12 /home/vnfunnet/public_html/datn/admincp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-05-28 03:27:51 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+#0 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/ConnectionManager.php(94): ConnectionManager::_getConnectionObject('default')
+#1 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Model.php(3382): ConnectionManager::getDataSource('default')
+#2 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Model.php(1083): Model->setDataSource('default')
+#3 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Model.php(3408): Model->setSource('orders')
+#4 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Model/Model.php(2663): Model->getDataSource()
+#5 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Controller/Component/PaginatorComponent.php(172): Model->find('all', Array)
+#6 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Controller/Controller.php(1084): PaginatorComponent->paginate(NULL, Array, Array)
+#7 /home/vnfunnet/public_html/datn/admincp/app/Controller/OrdersController.php(18): Controller->paginate()
+#8 [internal function]: OrdersController->index()
+#9 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(OrdersController), Array)
+#10 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 /home/vnfunnet/public_html/datn/admincp/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(OrdersController), Object(CakeRequest), Object(CakeResponse))
+#12 /home/vnfunnet/public_html/datn/admincp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-05-28 03:52:23 Error: [MissingControllerException] Controller class ProductsController could not be found.
+#0 /home/vnfunnet/public_html/datn/admincp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-27 10:07:45 Error: [PrivateActionException] Private Action AdminsController::admin_add() is not directly accessible.
+#0 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-05-27 14:04:58 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('INSERT INTO `tr...', Array)
+#2 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(985): DboSource->execute('INSERT INTO `tr...')
+#3 C:\wamp\www\admin\lib\Cake\Model\Model.php(1705): DboSource->create(Object(Image), Array, Array)
+#4 C:\wamp\www\admin\app\Controller\ImagesController.php(63): Model->save(Array)
+#5 [internal function]: ImagesController->add()
+#6 C:\wamp\www\admin\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ImagesController), Array)
+#7 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ImagesController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-05-27 14:28:26 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('INSERT INTO `tr...', Array)
+#2 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(985): DboSource->execute('INSERT INTO `tr...')
+#3 C:\wamp\www\admin\lib\Cake\Model\Model.php(1705): DboSource->create(Object(Image), Array, Array)
+#4 C:\wamp\www\admin\app\Controller\ImagesController.php(63): Model->save(Array)
+#5 [internal function]: ImagesController->add()
+#6 C:\wamp\www\admin\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ImagesController), Array)
+#7 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ImagesController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-05-27 14:30:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('INSERT INTO `tr...', Array)
+#2 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(985): DboSource->execute('INSERT INTO `tr...')
+#3 C:\wamp\www\admin\lib\Cake\Model\Model.php(1705): DboSource->create(Object(Image), Array, Array)
+#4 C:\wamp\www\admin\app\Controller\ImagesController.php(63): Model->save(Array)
+#5 [internal function]: ImagesController->add()
+#6 C:\wamp\www\admin\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ImagesController), Array)
+#7 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ImagesController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-05-28 02:36:03 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('INSERT INTO `tr...', Array)
+#2 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(985): DboSource->execute('INSERT INTO `tr...')
+#3 C:\wamp\www\admin\lib\Cake\Model\Model.php(1705): DboSource->create(Object(Image), Array, Array)
+#4 C:\wamp\www\admin\app\Controller\ImagesController.php(63): Model->save(Array)
+#5 [internal function]: ImagesController->add()
+#6 C:\wamp\www\admin\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ImagesController), Array)
+#7 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ImagesController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-05-28 02:38:01 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('INSERT INTO `tr...', Array)
+#2 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(985): DboSource->execute('INSERT INTO `tr...')
+#3 C:\wamp\www\admin\lib\Cake\Model\Model.php(1705): DboSource->create(Object(Image), Array, Array)
+#4 C:\wamp\www\admin\app\Controller\ImagesController.php(63): Model->save(Array)
+#5 [internal function]: ImagesController->add()
+#6 C:\wamp\www\admin\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ImagesController), Array)
+#7 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ImagesController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-05-28 03:30:36 Error: [MissingControllerException] Controller class ProductsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 03:51:17 Error: [MissingTableException] Table recipes for model Recipe was not found in datasource default.
+#0 C:\wamp\www\admin\lib\Cake\Model\Model.php(3408): Model->setSource('recipes')
+#1 C:\wamp\www\admin\lib\Cake\Model\Model.php(2663): Model->getDataSource()
+#2 C:\wamp\www\admin\app\Controller\RecipesController.php(13): Model->find('all')
+#3 [internal function]: RecipesController->index()
+#4 C:\wamp\www\admin\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecipesController), Array)
+#5 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(RecipesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-05-28 03:58:10 Error: [MissingViewException] View file "C:\wamp\www\admin\app\View\Images\xxx.ctp" is missing.
+#0 C:\wamp\www\admin\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 C:\wamp\www\admin\app\Plugin\debug_kit\View\DebugView.php(82): View->render(NULL, NULL)
+#2 C:\wamp\www\admin\lib\Cake\Controller\Controller.php(959): DebugView->render(NULL, NULL)
+#3 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#4 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ImagesController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-05-28 04:01:41 Error: [MissingViewException] View file "C:\wamp\www\admin\app\View\Images\xxx.ctp" is missing.
+#0 C:\wamp\www\admin\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 C:\wamp\www\admin\app\Plugin\debug_kit\View\DebugView.php(82): View->render(NULL, NULL)
+#2 C:\wamp\www\admin\lib\Cake\Controller\Controller.php(959): DebugView->render(NULL, NULL)
+#3 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#4 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ImagesController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-05-28 04:08:25 Error: [MissingViewException] View file "C:\wamp\www\admin\app\View\Images\xxx.ctp" is missing.
+#0 C:\wamp\www\admin\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 C:\wamp\www\admin\app\Plugin\debug_kit\View\DebugView.php(82): View->render(NULL, NULL)
+#2 C:\wamp\www\admin\lib\Cake\Controller\Controller.php(959): DebugView->render(NULL, NULL)
+#3 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#4 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ImagesController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-05-28 04:08:47 Error: [MissingViewException] View file "C:\wamp\www\admin\app\View\Images\xxx.ctp" is missing.
+#0 C:\wamp\www\admin\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 C:\wamp\www\admin\app\Plugin\debug_kit\View\DebugView.php(82): View->render(NULL, NULL)
+#2 C:\wamp\www\admin\lib\Cake\Controller\Controller.php(959): DebugView->render(NULL, NULL)
+#3 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#4 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ImagesController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-05-28 04:10:48 Error: [MissingTableException] Table recipes for model Recipe was not found in datasource default.
+#0 C:\wamp\www\admin\lib\Cake\Model\Model.php(3408): Model->setSource('recipes')
+#1 C:\wamp\www\admin\lib\Cake\Model\Model.php(2663): Model->getDataSource()
+#2 C:\wamp\www\admin\app\Controller\RecipesController.php(13): Model->find('all')
+#3 [internal function]: RecipesController->index()
+#4 C:\wamp\www\admin\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RecipesController), Array)
+#5 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(RecipesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-05-28 04:13:47 Error: [MissingActionException] Action RecipesController::xml() could not be found.
+#0 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(RecipesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-05-28 04:16:54 Error: [MissingControllerException] Controller class ProductsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 04:17:00 Error: [MissingControllerException] Controller class ProductsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 04:18:42 Error: [MissingViewException] View file "C:\wamp\www\admin\app\View\Images\json\index.ctp" is missing.
+#0 C:\wamp\www\admin\lib\Cake\View\JsonView.php(98): View->_getViewFileName(NULL)
+#1 C:\wamp\www\admin\lib\Cake\Controller\Controller.php(959): JsonView->render(NULL, NULL)
+#2 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ImagesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-05-28 04:22:45 Error: [MissingTableException] Table products for model Product was not found in datasource default.
+#0 C:\wamp\www\admin\lib\Cake\Model\Model.php(3408): Model->setSource('products')
+#1 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(1044): Model->getDataSource()
+#2 C:\wamp\www\admin\lib\Cake\Model\Model.php(2663): DboSource->read(Object(Category), Array)
+#3 C:\wamp\www\admin\lib\Cake\Model\Model.php(1491): Model->find('first', Array)
+#4 C:\wamp\www\admin\app\Controller\CategoriesController.php(39): Model->read(NULL, '29')
+#5 [internal function]: CategoriesController->view('29')
+#6 C:\wamp\www\admin\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#7 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-05-28 04:28:56 Error: [MissingControllerException] Controller class XxxController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 04:30:55 Error: [MissingViewException] View file "C:\wamp\www\admin\app\View\Images\xxx.ctp" is missing.
+#0 C:\wamp\www\admin\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 C:\wamp\www\admin\app\Plugin\debug_kit\View\DebugView.php(82): View->render(NULL, NULL)
+#2 C:\wamp\www\admin\lib\Cake\Controller\Controller.php(959): DebugView->render(NULL, NULL)
+#3 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#4 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ImagesController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-05-28 04:33:01 Error: [MissingTableException] Table apis for model Api was not found in datasource default.
+#0 C:\wamp\www\admin\lib\Cake\Model\Model.php(3408): Model->setSource('apis')
+#1 C:\wamp\www\admin\lib\Cake\Model\Model.php(2663): Model->getDataSource()
+#2 C:\wamp\www\admin\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#3 C:\wamp\www\admin\lib\Cake\Controller\Controller.php(1084): PaginatorComponent->paginate(NULL, Array, Array)
+#4 C:\wamp\www\admin\app\Controller\ApisController.php(19): Controller->paginate()
+#5 [internal function]: ApisController->index()
+#6 C:\wamp\www\admin\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#7 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-05-28 04:33:10 Error: [MissingTableException] Table apis for model Api was not found in datasource default.
+#0 C:\wamp\www\admin\lib\Cake\Model\Model.php(3408): Model->setSource('apis')
+#1 C:\wamp\www\admin\lib\Cake\Model\Model.php(2663): Model->getDataSource()
+#2 C:\wamp\www\admin\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#3 C:\wamp\www\admin\lib\Cake\Controller\Controller.php(1084): PaginatorComponent->paginate(NULL, Array, Array)
+#4 C:\wamp\www\admin\app\Controller\ApisController.php(19): Controller->paginate()
+#5 [internal function]: ApisController->index()
+#6 C:\wamp\www\admin\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#7 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-05-28 04:33:41 Error: [MissingTableException] Table apis for model Api was not found in datasource default.
+#0 C:\wamp\www\admin\lib\Cake\Model\Model.php(3408): Model->setSource('apis')
+#1 C:\wamp\www\admin\lib\Cake\Model\Model.php(2663): Model->getDataSource()
+#2 C:\wamp\www\admin\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#3 C:\wamp\www\admin\lib\Cake\Controller\Controller.php(1084): PaginatorComponent->paginate(NULL, Array, Array)
+#4 C:\wamp\www\admin\app\Controller\ApisController.php(19): Controller->paginate()
+#5 [internal function]: ApisController->index()
+#6 C:\wamp\www\admin\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#7 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-05-28 04:34:55 Error: [MissingViewException] View file "C:\wamp\www\admin\app\View\Apis\index.ctp" is missing.
+#0 C:\wamp\www\admin\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 C:\wamp\www\admin\app\Plugin\debug_kit\View\DebugView.php(82): View->render(NULL, NULL)
+#2 C:\wamp\www\admin\lib\Cake\Controller\Controller.php(959): DebugView->render(NULL, NULL)
+#3 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#4 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-05-28 05:17:03 Error: [MissingControllerException] Controller class GetImagesController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 07:16:14 Error: [MissingViewException] View file "C:\wamp\www\admin\app\View\Apis\index.ctp" is missing.
+#0 C:\wamp\www\admin\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 C:\wamp\www\admin\app\Plugin\debug_kit\View\DebugView.php(82): View->render(NULL, NULL)
+#2 C:\wamp\www\admin\lib\Cake\Controller\Controller.php(959): DebugView->render(NULL, NULL)
+#3 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#4 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-05-28 08:57:17 Error: [MissingControllerException] Controller class Drag-uploadController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 08:57:44 Error: [MissingControllerException] Controller class DragDropUploadController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 08:58:01 Error: [MissingControllerException] Controller class Drag-uploadController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 08:59:21 Error: [MissingControllerException] Controller class Drag-drop-uploadController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 08:59:32 Error: [MissingControllerException] Controller class DragDropUploadController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 09:01:47 Error: [MissingViewException] View file "C:\wamp\www\admin\app\Plugin\drag_drop_upload\View\DragDropUpload\upload.ctp" is missing.
+#0 C:\wamp\www\admin\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 C:\wamp\www\admin\app\Plugin\debug_kit\View\DebugView.php(82): View->render(NULL, NULL)
+#2 C:\wamp\www\admin\lib\Cake\Controller\Controller.php(959): DebugView->render(NULL, NULL)
+#3 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#4 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(DragDropUploadController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-05-28 09:06:22 Error: [MissingControllerException] Controller class Drag-uploadController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 14:57:09 Error: [MissingHelperException] Helper class JavascriptHelper could not be found.
+#0 C:\wamp\www\admin\lib\Cake\View\View.php(850): HelperCollection->load('Javascript', Array)
+#1 C:\wamp\www\admin\lib\Cake\View\View.php(456): View->loadHelpers()
+#2 C:\wamp\www\admin\app\Plugin\debug_kit\View\DebugView.php(82): View->render(NULL, NULL)
+#3 C:\wamp\www\admin\lib\Cake\Controller\Controller.php(959): DebugView->render(NULL, NULL)
+#4 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#5 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ImagesController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-05-28 14:58:08 Error: [MissingHelperException] Helper class JavascriptHelper could not be found.
+#0 C:\wamp\www\admin\lib\Cake\View\View.php(850): HelperCollection->load('Javascript', Array)
+#1 C:\wamp\www\admin\lib\Cake\View\View.php(456): View->loadHelpers()
+#2 C:\wamp\www\admin\app\Plugin\debug_kit\View\DebugView.php(82): View->render(NULL, NULL)
+#3 C:\wamp\www\admin\lib\Cake\Controller\Controller.php(959): DebugView->render(NULL, NULL)
+#4 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#5 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ImagesController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-05-28 14:59:56 Error: [MissingHelperException] Helper class JavascriptHelper could not be found.
+#0 C:\wamp\www\admin\lib\Cake\View\View.php(850): HelperCollection->load('Javascript', Array)
+#1 C:\wamp\www\admin\lib\Cake\View\View.php(456): View->loadHelpers()
+#2 C:\wamp\www\admin\app\Plugin\debug_kit\View\DebugView.php(82): View->render(NULL, NULL)
+#3 C:\wamp\www\admin\lib\Cake\Controller\Controller.php(959): DebugView->render(NULL, NULL)
+#4 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#5 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ImagesController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-05-28 15:01:13 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:01:25 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:02:01 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:06:02 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:06:14 Error: [MissingViewException] View file "C:\wamp\www\admin\app\View\Images\ajaxadd.ctp" is missing.
+#0 C:\wamp\www\admin\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 C:\wamp\www\admin\app\Plugin\debug_kit\View\DebugView.php(82): View->render(NULL, NULL)
+#2 C:\wamp\www\admin\lib\Cake\Controller\Controller.php(959): DebugView->render(NULL, NULL)
+#3 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#4 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ImagesController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-05-28 15:06:30 Error: [MissingViewException] View file "C:\wamp\www\admin\app\View\Images\ajaxadd.ctp" is missing.
+#0 C:\wamp\www\admin\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 C:\wamp\www\admin\app\Plugin\debug_kit\View\DebugView.php(82): View->render(NULL, NULL)
+#2 C:\wamp\www\admin\lib\Cake\Controller\Controller.php(959): DebugView->render(NULL, NULL)
+#3 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#4 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ImagesController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-05-28 15:07:04 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:07:32 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:08:19 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:12:02 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:12:58 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:15:38 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:16:14 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:21:01 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:21:27 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:23:45 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:24:14 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:25:07 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:26:49 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:27:26 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:27:47 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:28:05 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:28:39 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:29:33 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:29:48 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:30:25 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:31:51 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:31:58 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:32:42 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:33:58 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:34:06 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:34:30 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:34:43 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:34:52 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:35:26 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:37:14 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:37:54 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:38:58 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:40:11 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:40:53 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:41:00 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:42:17 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:43:03 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:43:25 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:43:34 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:43:56 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:45:50 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:46:07 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:46:08 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:46:14 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:46:36 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:46:58 Error: [MissingTableException] Table products for model Product was not found in datasource default.
+#0 C:\wamp\www\admin\lib\Cake\Model\Model.php(3408): Model->setSource('products')
+#1 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(1044): Model->getDataSource()
+#2 C:\wamp\www\admin\lib\Cake\Model\Model.php(2663): DboSource->read(Object(Category), Array)
+#3 C:\wamp\www\admin\lib\Cake\Model\Model.php(1491): Model->find('first', Array)
+#4 C:\wamp\www\admin\app\Controller\CategoriesController.php(116): Model->read(NULL, '28')
+#5 [internal function]: CategoriesController->edit('28')
+#6 C:\wamp\www\admin\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#7 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-05-28 15:47:22 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:49:26 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:49:59 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:53:02 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:53:07 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:53:09 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:53:09 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:53:20 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:53:20 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:53:24 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:53:49 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:53:52 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:53:56 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:54:39 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:56:34 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:57:07 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 15:57:51 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 16:01:20 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 16:01:41 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 16:03:12 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 16:03:27 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 16:05:32 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 16:05:57 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 16:06:24 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 16:08:06 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 16:09:20 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 16:12:52 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-28 16:38:42 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ESC' at line 1
+#0 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT * FROM i...', Array)
+#2 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('SELECT * FROM i...', Array, Array)
+#3 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(516): DboSource->fetchAll('SELECT * FROM i...')
+#4 [internal function]: DboSource->query('SELECT * FROM i...')
+#5 C:\wamp\www\admin\lib\Cake\Model\Model.php(3020): call_user_func_array(Array, Array)
+#6 C:\wamp\www\admin\app\Controller\ApisController.php(27): Model->query('SELECT * FROM i...')
+#7 [internal function]: ApisController->getImages()
+#8 C:\wamp\www\admin\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#9 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-05-28 16:40:37 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0' at line 1
+#0 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute(0, Array)
+#2 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute(0, Array, Array)
+#3 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(516): DboSource->fetchAll(0)
+#4 [internal function]: DboSource->query(0)
+#5 C:\wamp\www\admin\lib\Cake\Model\Model.php(3020): call_user_func_array(Array, Array)
+#6 C:\wamp\www\admin\app\Controller\ApisController.php(27): Model->query(0)
+#7 [internal function]: ApisController->getImages()
+#8 C:\wamp\www\admin\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#9 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-05-28 16:40:45 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0' at line 1
+#0 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute(0, Array)
+#2 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute(0, Array, Array)
+#3 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(516): DboSource->fetchAll(0)
+#4 [internal function]: DboSource->query(0)
+#5 C:\wamp\www\admin\lib\Cake\Model\Model.php(3020): call_user_func_array(Array, Array)
+#6 C:\wamp\www\admin\app\Controller\ApisController.php(27): Model->query(0)
+#7 [internal function]: ApisController->getImages()
+#8 C:\wamp\www\admin\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#9 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-05-28 16:41:01 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 1
+#0 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute(10, Array)
+#2 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute(10, Array, Array)
+#3 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(516): DboSource->fetchAll(10)
+#4 [internal function]: DboSource->query(10)
+#5 C:\wamp\www\admin\lib\Cake\Model\Model.php(3020): call_user_func_array(Array, Array)
+#6 C:\wamp\www\admin\app\Controller\ApisController.php(27): Model->query(10)
+#7 [internal function]: ApisController->getImages()
+#8 C:\wamp\www\admin\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#9 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-05-28 16:45:39 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''0' '1'' at line 1
+#0 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT * FROM i...', Array)
+#2 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('SELECT * FROM i...', Array, Array)
+#3 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(516): DboSource->fetchAll('SELECT * FROM i...')
+#4 [internal function]: DboSource->query('SELECT * FROM i...')
+#5 C:\wamp\www\admin\lib\Cake\Model\Model.php(3020): call_user_func_array(Array, Array)
+#6 C:\wamp\www\admin\app\Controller\ApisController.php(30): Model->query('SELECT * FROM i...')
+#7 [internal function]: ApisController->getImages()
+#8 C:\wamp\www\admin\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#9 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-05-28 16:47:46 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1
+#0 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT * FROM i...', Array)
+#2 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('SELECT * FROM i...', Array, Array)
+#3 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(516): DboSource->fetchAll('SELECT * FROM i...')
+#4 [internal function]: DboSource->query('SELECT * FROM i...')
+#5 C:\wamp\www\admin\lib\Cake\Model\Model.php(3020): call_user_func_array(Array, Array)
+#6 C:\wamp\www\admin\app\Controller\ApisController.php(30): Model->query('SELECT * FROM i...')
+#7 [internal function]: ApisController->getImages()
+#8 C:\wamp\www\admin\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#9 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-05-28 16:48:26 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1
+#0 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT * FROM i...', Array)
+#2 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('SELECT * FROM i...', Array, Array)
+#3 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(516): DboSource->fetchAll('SELECT * FROM i...')
+#4 [internal function]: DboSource->query('SELECT * FROM i...')
+#5 C:\wamp\www\admin\lib\Cake\Model\Model.php(3020): call_user_func_array(Array, Array)
+#6 C:\wamp\www\admin\app\Controller\ApisController.php(30): Model->query('SELECT * FROM i...')
+#7 [internal function]: ApisController->getImages()
+#8 C:\wamp\www\admin\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApisController), Array)
+#9 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-05-28 16:55:29 Error: [MissingTableException] Table products for model Product was not found in datasource default.
+#0 C:\wamp\www\admin\lib\Cake\Model\Model.php(3408): Model->setSource('products')
+#1 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(1044): Model->getDataSource()
+#2 C:\wamp\www\admin\lib\Cake\Model\Model.php(2663): DboSource->read(Object(Category), Array)
+#3 C:\wamp\www\admin\lib\Cake\Model\Model.php(1491): Model->find('first', Array)
+#4 C:\wamp\www\admin\app\Controller\CategoriesController.php(116): Model->read(NULL, '28')
+#5 [internal function]: CategoriesController->edit('28')
+#6 C:\wamp\www\admin\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#7 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-05-28 16:57:03 Error: [MissingTableException] Table products for model Product was not found in datasource default.
+#0 C:\wamp\www\admin\lib\Cake\Model\Model.php(3408): Model->setSource('products')
+#1 C:\wamp\www\admin\lib\Cake\Model\Datasource\DboSource.php(1044): Model->getDataSource()
+#2 C:\wamp\www\admin\lib\Cake\Model\Model.php(2663): DboSource->read(Object(Category), Array)
+#3 C:\wamp\www\admin\lib\Cake\Model\Model.php(1491): Model->find('first', Array)
+#4 C:\wamp\www\admin\app\Controller\CategoriesController.php(116): Model->read(NULL, '28')
+#5 [internal function]: CategoriesController->edit('28')
+#6 C:\wamp\www\admin\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#7 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\admin\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-05-28 17:31:09 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-29 16:02:57 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-29 16:09:16 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\admin\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-30 12:12:39 Error: [MissingTableException] Table admins for model Admin was not found in datasource default.
+#0 C:\wamp\www\haivl\lib\Cake\Model\Model.php(3408): Model->setSource('admins')
+#1 C:\wamp\www\haivl\lib\Cake\Model\Model.php(1276): Model->getDataSource()
+#2 C:\wamp\www\haivl\lib\Cake\View\Helper\FormHelper.php(196): Model->schema()
+#3 C:\wamp\www\haivl\lib\Cake\View\Helper\FormHelper.php(450): FormHelper->_introspectModel('Admin', 'fields')
+#4 C:\wamp\www\haivl\app\View\Layouts\login.ctp(49): FormHelper->create('Admin')
+#5 C:\wamp\www\haivl\lib\Cake\View\View.php(908): include('C:\wamp\www\hai...')
+#6 C:\wamp\www\haivl\lib\Cake\View\View.php(872): View->_evaluate('C:\wamp\www\hai...', Array)
+#7 C:\wamp\www\haivl\app\Plugin\debug_kit\View\DebugView.php(43): View->_render('C:\wamp\www\hai...', Array)
+#8 C:\wamp\www\haivl\lib\Cake\View\View.php(527): DebugView->_render('C:\wamp\www\hai...')
+#9 C:\wamp\www\haivl\lib\Cake\View\View.php(471): View->renderLayout('', 'login')
+#10 C:\wamp\www\haivl\app\Plugin\debug_kit\View\DebugView.php(82): View->render(NULL, NULL)
+#11 C:\wamp\www\haivl\lib\Cake\Controller\Controller.php(959): DebugView->render(NULL, NULL)
+#12 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#13 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2013-05-31 03:36:37 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-31 03:40:11 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'blabla' at line 1
+#0 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('blabla', Array)
+#2 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('blabla', Array, Array)
+#3 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(589): DboSource->fetchAll('blabla', Array, Array)
+#4 C:\wamp\www\haivl\lib\Cake\Model\Model.php(775): DboSource->query('blabla', Array, Object(Image))
+#5 C:\wamp\www\haivl\app\Controller\ApiController.php(22): Model->__call('blabla', Array)
+#6 C:\wamp\www\haivl\app\Controller\ApiController.php(22): Image->blabla()
+#7 [internal function]: ApiController->index()
+#8 C:\wamp\www\haivl\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#9 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-05-31 03:42:37 Error: [MissingViewException] View file "C:\wamp\www\haivl\app\View\Api\get_images.ctp" is missing.
+#0 C:\wamp\www\haivl\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 C:\wamp\www\haivl\app\Plugin\debug_kit\View\DebugView.php(82): View->render(NULL, NULL)
+#2 C:\wamp\www\haivl\lib\Cake\Controller\Controller.php(959): DebugView->render(NULL, NULL)
+#3 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#4 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-05-31 03:42:58 Error: [MissingViewException] View file "C:\wamp\www\haivl\app\View\Api\get_categories.ctp" is missing.
+#0 C:\wamp\www\haivl\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 C:\wamp\www\haivl\app\Plugin\debug_kit\View\DebugView.php(82): View->render(NULL, NULL)
+#2 C:\wamp\www\haivl\lib\Cake\Controller\Controller.php(959): DebugView->render(NULL, NULL)
+#3 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#4 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-05-31 03:43:06 Error: [MissingViewException] View file "C:\wamp\www\haivl\app\View\Api\getcategories.ctp" is missing.
+#0 C:\wamp\www\haivl\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 C:\wamp\www\haivl\app\Plugin\debug_kit\View\DebugView.php(82): View->render(NULL, NULL)
+#2 C:\wamp\www\haivl\lib\Cake\Controller\Controller.php(959): DebugView->render(NULL, NULL)
+#3 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#4 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-05-31 03:43:21 Error: [MissingViewException] View file "C:\wamp\www\haivl\app\View\Api\get_categories.ctp" is missing.
+#0 C:\wamp\www\haivl\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 C:\wamp\www\haivl\app\Plugin\debug_kit\View\DebugView.php(82): View->render(NULL, NULL)
+#2 C:\wamp\www\haivl\lib\Cake\Controller\Controller.php(959): DebugView->render(NULL, NULL)
+#3 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#4 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-05-31 03:44:04 Error: [MissingViewException] View file "C:\wamp\www\haivl\app\View\Api\get_categories.ctp" is missing.
+#0 C:\wamp\www\haivl\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 C:\wamp\www\haivl\app\Plugin\debug_kit\View\DebugView.php(82): View->render(NULL, NULL)
+#2 C:\wamp\www\haivl\lib\Cake\Controller\Controller.php(959): DebugView->render(NULL, NULL)
+#3 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#4 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-05-31 03:44:19 Error: [MissingControllerException] Controller class ApisController could not be found.
+#0 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-31 03:44:54 Error: [MissingControllerException] Controller class ApisController could not be found.
+#0 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-31 03:45:06 Error: [MissingControllerException] Controller class ApisController could not be found.
+#0 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-31 03:45:32 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'blabla' at line 1
+#0 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('blabla', Array)
+#2 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('blabla', Array, Array)
+#3 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(589): DboSource->fetchAll('blabla', Array, Array)
+#4 C:\wamp\www\haivl\lib\Cake\Model\Model.php(775): DboSource->query('blabla', Array, Object(Image))
+#5 C:\wamp\www\haivl\app\Controller\ApiController.php(22): Model->__call('blabla', Array)
+#6 C:\wamp\www\haivl\app\Controller\ApiController.php(22): Image->blabla()
+#7 [internal function]: ApiController->index()
+#8 C:\wamp\www\haivl\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#9 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-05-31 03:46:05 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'blabla' at line 1
+#0 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('blabla', Array)
+#2 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('blabla', Array, Array)
+#3 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(589): DboSource->fetchAll('blabla', Array, Array)
+#4 C:\wamp\www\haivl\lib\Cake\Model\Model.php(775): DboSource->query('blabla', Array, Object(Image))
+#5 C:\wamp\www\haivl\app\Controller\ApiController.php(22): Model->__call('blabla', Array)
+#6 C:\wamp\www\haivl\app\Controller\ApiController.php(22): Image->blabla()
+#7 [internal function]: ApiController->index()
+#8 C:\wamp\www\haivl\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#9 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-05-31 04:40:00 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '35 vs 3'22 :))', 'Tôm Trần', 'http://img.youtube.com/vi/k1yB-AMYD34/0.jp' at line 2
+#0 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('INSERT INTO ima...', Array)
+#2 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('INSERT INTO ima...', Array, Array)
+#3 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(516): DboSource->fetchAll('INSERT INTO ima...')
+#4 [internal function]: DboSource->query('INSERT INTO ima...')
+#5 C:\wamp\www\haivl\lib\Cake\Model\Model.php(3020): call_user_func_array(Array, Array)
+#6 C:\wamp\www\haivl\app\Model\Image.php(99): Model->query('INSERT INTO ima...')
+#7 C:\wamp\www\haivl\app\Controller\ApiController.php(20): Image->update_database()
+#8 [internal function]: ApiController->getImages()
+#9 C:\wamp\www\haivl\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#10 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-05-31 04:45:02 Error: [PDOException] SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name ''
+#0 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('INSERT INTO ima...', Array)
+#2 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('INSERT INTO ima...', Array, Array)
+#3 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(516): DboSource->fetchAll('INSERT INTO ima...')
+#4 [internal function]: DboSource->query('INSERT INTO ima...')
+#5 C:\wamp\www\haivl\lib\Cake\Model\Model.php(3020): call_user_func_array(Array, Array)
+#6 C:\wamp\www\haivl\app\Model\Image.php(104): Model->query('INSERT INTO ima...')
+#7 C:\wamp\www\haivl\app\Controller\ApiController.php(20): Image->update_database()
+#8 [internal function]: ApiController->getImages()
+#9 C:\wamp\www\haivl\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#10 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-05-31 04:54:43 Error: [PDOException] SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name ''
+#0 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('INSERT INTO ima...', Array)
+#2 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('INSERT INTO ima...', Array, Array)
+#3 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(516): DboSource->fetchAll('INSERT INTO ima...')
+#4 [internal function]: DboSource->query('INSERT INTO ima...')
+#5 C:\wamp\www\haivl\lib\Cake\Model\Model.php(3020): call_user_func_array(Array, Array)
+#6 C:\wamp\www\haivl\app\Model\Image.php(106): Model->query('INSERT INTO ima...')
+#7 C:\wamp\www\haivl\app\Controller\ApiController.php(20): Image->update_database()
+#8 [internal function]: ApiController->getImages()
+#9 C:\wamp\www\haivl\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#10 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-05-31 04:58:15 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Image.category_id' in 'on clause'
+#0 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `Image`....', Array)
+#2 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('SELECT `Image`....', Array, Array)
+#3 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(1058): DboSource->fetchAll('SELECT `Image`....', false)
+#4 C:\wamp\www\haivl\lib\Cake\Model\Model.php(2663): DboSource->read(Object(Image), Array)
+#5 C:\wamp\www\haivl\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#6 C:\wamp\www\haivl\lib\Cake\Controller\Controller.php(1084): PaginatorComponent->paginate(NULL, Array, Array)
+#7 C:\wamp\www\haivl\app\Controller\ImagesController.php(26): Controller->paginate()
+#8 [internal function]: ImagesController->index()
+#9 C:\wamp\www\haivl\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ImagesController), Array)
+#10 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ImagesController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-05-31 05:01:34 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Image.category_id' in 'on clause'
+#0 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `Image`....', Array)
+#2 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('SELECT `Image`....', Array, Array)
+#3 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(1058): DboSource->fetchAll('SELECT `Image`....', false)
+#4 C:\wamp\www\haivl\lib\Cake\Model\Model.php(2663): DboSource->read(Object(Image), Array)
+#5 C:\wamp\www\haivl\lib\Cake\Controller\Component\PaginatorComponent.php(172): Model->find('all', Array)
+#6 C:\wamp\www\haivl\lib\Cake\Controller\Controller.php(1084): PaginatorComponent->paginate(NULL, Array, Array)
+#7 C:\wamp\www\haivl\app\Controller\ImagesController.php(26): Controller->paginate()
+#8 [internal function]: ImagesController->index()
+#9 C:\wamp\www\haivl\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ImagesController), Array)
+#10 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ImagesController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-05-31 07:06:26 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'get' at line 1
+#0 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('get', Array)
+#2 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('get', Array, Array)
+#3 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(589): DboSource->fetchAll('get', Array, Array)
+#4 C:\wamp\www\haivl\lib\Cake\Model\Model.php(775): DboSource->query('get', Array, Object(Image))
+#5 C:\wamp\www\haivl\app\Model\Image.php(84): Model->__call('get', Array)
+#6 C:\wamp\www\haivl\app\Model\Image.php(84): Image->get('first')
+#7 C:\wamp\www\haivl\app\Controller\ApiController.php(20): Image->update_database()
+#8 [internal function]: ApiController->getImages()
+#9 C:\wamp\www\haivl\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#10 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-06-02 05:38:24 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update_database' at line 1
+#0 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('update_database', Array)
+#2 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('update_database', Array, Array)
+#3 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(589): DboSource->fetchAll('update_database', Array, Array)
+#4 C:\wamp\www\haivl\lib\Cake\Model\Model.php(775): DboSource->query('update_database', Array, Object(Session))
+#5 C:\wamp\www\haivl\app\Controller\ApiController.php(21): Model->__call('update_database', Array)
+#6 C:\wamp\www\haivl\app\Controller\ApiController.php(21): Session->update_database()
+#7 [internal function]: ApiController->getImages()
+#8 C:\wamp\www\haivl\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#9 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-06-02 05:38:43 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update_database' at line 1
+#0 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('update_database', Array)
+#2 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('update_database', Array, Array)
+#3 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(589): DboSource->fetchAll('update_database', Array, Array)
+#4 C:\wamp\www\haivl\lib\Cake\Model\Model.php(775): DboSource->query('update_database', Array, Object(Session))
+#5 C:\wamp\www\haivl\app\Controller\ApiController.php(21): Model->__call('update_database', Array)
+#6 C:\wamp\www\haivl\app\Controller\ApiController.php(21): Session->update_database()
+#7 [internal function]: ApiController->getImages()
+#8 C:\wamp\www\haivl\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#9 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-06-02 05:39:00 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update_database' at line 1
+#0 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('update_database', Array)
+#2 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('update_database', Array, Array)
+#3 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(589): DboSource->fetchAll('update_database', Array, Array)
+#4 C:\wamp\www\haivl\lib\Cake\Model\Model.php(775): DboSource->query('update_database', Array, Object(Session))
+#5 C:\wamp\www\haivl\app\Controller\ApiController.php(21): Model->__call('update_database', Array)
+#6 C:\wamp\www\haivl\app\Controller\ApiController.php(21): Session->update_database()
+#7 [internal function]: ApiController->getImages()
+#8 C:\wamp\www\haivl\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#9 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-06-02 05:39:06 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update_database' at line 1
+#0 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('update_database', Array)
+#2 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('update_database', Array, Array)
+#3 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(589): DboSource->fetchAll('update_database', Array, Array)
+#4 C:\wamp\www\haivl\lib\Cake\Model\Model.php(775): DboSource->query('update_database', Array, Object(Session))
+#5 C:\wamp\www\haivl\app\Controller\ApiController.php(21): Model->__call('update_database', Array)
+#6 C:\wamp\www\haivl\app\Controller\ApiController.php(21): Session->update_database()
+#7 [internal function]: ApiController->getImages()
+#8 C:\wamp\www\haivl\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#9 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-06-02 05:53:45 Error: [MissingActionException] Action ApiController::getimage() could not be found.
+#0 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-02 06:11:34 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'get_data_from_rss' at line 1
+#0 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('get_data_from_r...', Array)
+#2 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('get_data_from_r...', Array, Array)
+#3 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(589): DboSource->fetchAll('get_data_from_r...', Array, Array)
+#4 C:\wamp\www\haivl\lib\Cake\Model\Model.php(775): DboSource->query('get_data_from_r...', Array, Object(Session))
+#5 C:\wamp\www\haivl\app\Model\Session.php(57): Model->__call('get_data_from_r...', Array)
+#6 C:\wamp\www\haivl\app\Model\Session.php(57): Session->get_data_from_rss()
+#7 C:\wamp\www\haivl\app\Controller\ApiController.php(24): Session->update_session(Object(CakeRequest))
+#8 [internal function]: ApiController->getImages()
+#9 C:\wamp\www\haivl\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#10 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-06-02 06:12:55 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'get_data_from_rss' at line 1
+#0 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('get_data_from_r...', Array)
+#2 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('get_data_from_r...', Array, Array)
+#3 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(589): DboSource->fetchAll('get_data_from_r...', Array, Array)
+#4 C:\wamp\www\haivl\lib\Cake\Model\Model.php(775): DboSource->query('get_data_from_r...', Array, Object(Session))
+#5 C:\wamp\www\haivl\app\Model\Session.php(57): Model->__call('get_data_from_r...', Array)
+#6 C:\wamp\www\haivl\app\Model\Session.php(57): Session->get_data_from_rss()
+#7 C:\wamp\www\haivl\app\Controller\ApiController.php(24): Session->update_session(Object(CakeRequest))
+#8 [internal function]: ApiController->getImages()
+#9 C:\wamp\www\haivl\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#10 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-06-02 06:14:42 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+#0 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('INSERT INTO `te...', Array)
+#2 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(985): DboSource->execute('INSERT INTO `te...')
+#3 C:\wamp\www\haivl\lib\Cake\Model\Model.php(1705): DboSource->create(Object(Session), Array, Array)
+#4 C:\wamp\www\haivl\app\Model\Session.php(54): Model->save()
+#5 C:\wamp\www\haivl\app\Controller\ApiController.php(24): Session->update_session(Object(CakeRequest))
+#6 [internal function]: ApiController->getImages()
+#7 C:\wamp\www\haivl\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#8 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-06-02 06:17:07 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+#0 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('INSERT INTO `te...', Array)
+#2 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(985): DboSource->execute('INSERT INTO `te...')
+#3 C:\wamp\www\haivl\lib\Cake\Model\Model.php(1705): DboSource->create(Object(Session), Array, Array)
+#4 C:\wamp\www\haivl\lib\Cake\Model\Model.php(1557): Model->save(Array, Array)
+#5 C:\wamp\www\haivl\app\Model\Session.php(53): Model->saveField('request_count', 2)
+#6 C:\wamp\www\haivl\app\Controller\ApiController.php(24): Session->update_session(Object(CakeRequest))
+#7 [internal function]: ApiController->getImages()
+#8 C:\wamp\www\haivl\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#9 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-06-02 06:18:05 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+#0 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('INSERT INTO `te...', Array)
+#2 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(985): DboSource->execute('INSERT INTO `te...')
+#3 C:\wamp\www\haivl\lib\Cake\Model\Model.php(1705): DboSource->create(Object(Session), Array, Array)
+#4 C:\wamp\www\haivl\lib\Cake\Model\Model.php(1557): Model->save(Array, Array)
+#5 C:\wamp\www\haivl\app\Model\Session.php(53): Model->saveField('request_count', 2)
+#6 C:\wamp\www\haivl\app\Controller\ApiController.php(24): Session->update_session(Object(CakeRequest))
+#7 [internal function]: ApiController->getImages()
+#8 C:\wamp\www\haivl\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#9 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-06-02 06:18:25 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+#0 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('INSERT INTO `te...', Array)
+#2 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(985): DboSource->execute('INSERT INTO `te...')
+#3 C:\wamp\www\haivl\lib\Cake\Model\Model.php(1705): DboSource->create(Object(Session), Array, Array)
+#4 C:\wamp\www\haivl\lib\Cake\Model\Model.php(1557): Model->save(Array, Array)
+#5 C:\wamp\www\haivl\app\Model\Session.php(53): Model->saveField('request_count', 2)
+#6 C:\wamp\www\haivl\app\Controller\ApiController.php(24): Session->update_session(Object(CakeRequest))
+#7 [internal function]: ApiController->getImages()
+#8 C:\wamp\www\haivl\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#9 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-06-02 06:18:47 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+#0 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('INSERT INTO `te...', Array)
+#2 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(985): DboSource->execute('INSERT INTO `te...')
+#3 C:\wamp\www\haivl\lib\Cake\Model\Model.php(1705): DboSource->create(Object(Session), Array, Array)
+#4 C:\wamp\www\haivl\lib\Cake\Model\Model.php(1557): Model->save(Array, Array)
+#5 C:\wamp\www\haivl\app\Model\Session.php(55): Model->saveField('request_count', 2)
+#6 C:\wamp\www\haivl\app\Controller\ApiController.php(24): Session->update_session(Object(CakeRequest))
+#7 [internal function]: ApiController->getImages()
+#8 C:\wamp\www\haivl\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#9 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-06-02 06:25:53 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+#0 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('INSERT INTO `te...', Array)
+#2 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(985): DboSource->execute('INSERT INTO `te...')
+#3 C:\wamp\www\haivl\lib\Cake\Model\Model.php(1705): DboSource->create(Object(Session), Array, Array)
+#4 C:\wamp\www\haivl\lib\Cake\Model\Model.php(1557): Model->save(Array, Array)
+#5 C:\wamp\www\haivl\app\Model\Session.php(56): Model->saveField('request_count', 2)
+#6 C:\wamp\www\haivl\app\Controller\ApiController.php(24): Session->update_session(Object(CakeRequest))
+#7 [internal function]: ApiController->getImages()
+#8 C:\wamp\www\haivl\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#9 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-06-02 06:33:02 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+#0 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('INSERT INTO `te...', Array)
+#2 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(985): DboSource->execute('INSERT INTO `te...')
+#3 C:\wamp\www\haivl\lib\Cake\Model\Model.php(1705): DboSource->create(Object(Session), Array, Array)
+#4 C:\wamp\www\haivl\lib\Cake\Model\Model.php(1557): Model->save(Array, Array)
+#5 C:\wamp\www\haivl\app\Model\Session.php(56): Model->saveField('request_count', 2)
+#6 C:\wamp\www\haivl\app\Controller\ApiController.php(24): Session->update_session(Object(CakeRequest))
+#7 [internal function]: ApiController->getImages()
+#8 C:\wamp\www\haivl\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#9 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-06-02 06:42:36 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+#0 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('INSERT INTO `te...', Array)
+#2 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(985): DboSource->execute('INSERT INTO `te...')
+#3 C:\wamp\www\haivl\lib\Cake\Model\Model.php(1705): DboSource->create(Object(Session), Array, Array)
+#4 C:\wamp\www\haivl\app\Model\Session.php(43): Model->save()
+#5 C:\wamp\www\haivl\app\Controller\ApiController.php(24): Session->update_session(Object(CakeRequest))
+#6 [internal function]: ApiController->getImages()
+#7 C:\wamp\www\haivl\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#8 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-06-02 06:43:21 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+#0 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('INSERT INTO `te...', Array)
+#2 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(985): DboSource->execute('INSERT INTO `te...')
+#3 C:\wamp\www\haivl\lib\Cake\Model\Model.php(1705): DboSource->create(Object(Session), Array, Array)
+#4 C:\wamp\www\haivl\app\Model\Session.php(44): Model->save()
+#5 C:\wamp\www\haivl\app\Controller\ApiController.php(24): Session->update_session(Object(CakeRequest))
+#6 [internal function]: ApiController->getImages()
+#7 C:\wamp\www\haivl\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#8 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-06-02 06:44:40 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+#0 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('INSERT INTO `te...', Array)
+#2 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(985): DboSource->execute('INSERT INTO `te...')
+#3 C:\wamp\www\haivl\lib\Cake\Model\Model.php(1705): DboSource->create(Object(Session), Array, Array)
+#4 C:\wamp\www\haivl\app\Model\Session.php(45): Model->save()
+#5 C:\wamp\www\haivl\app\Controller\ApiController.php(24): Session->update_session(Object(CakeRequest))
+#6 [internal function]: ApiController->getImages()
+#7 C:\wamp\www\haivl\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#8 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-06-02 06:47:42 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+#0 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('INSERT INTO `te...', Array)
+#2 C:\wamp\www\haivl\lib\Cake\Model\Datasource\DboSource.php(985): DboSource->execute('INSERT INTO `te...')
+#3 C:\wamp\www\haivl\lib\Cake\Model\Model.php(1705): DboSource->create(Object(Session), Array, Array)
+#4 C:\wamp\www\haivl\app\Model\Session.php(45): Model->save()
+#5 C:\wamp\www\haivl\app\Controller\ApiController.php(24): Session->update_session(Object(CakeRequest))
+#6 [internal function]: ApiController->getImages()
+#7 C:\wamp\www\haivl\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#8 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-06-03 09:16:28 Error: [MissingActionException] Action ApiController::index() could not be found.
+#0 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-03 09:23:21 Error: [MissingViewException] View file "C:\wamp\www\haivl\app\View\Devices\index.ctp" is missing.
+#0 C:\wamp\www\haivl\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 C:\wamp\www\haivl\app\Plugin\debug_kit\View\DebugView.php(82): View->render(NULL, NULL)
+#2 C:\wamp\www\haivl\lib\Cake\Controller\Controller.php(959): DebugView->render(NULL, NULL)
+#3 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#4 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(DevicesController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-06-04 09:39:42 Error: [MissingControllerException] Controller class SController could not be found.
+#0 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 09:43:18 Error: [MissingControllerException] Controller class SController could not be found.
+#0 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 09:44:00 Error: [MissingControllerException] Controller class SController could not be found.
+#0 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 09:44:16 Error: [MissingControllerException] Controller class SàgdfgController could not be found.
+#0 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 09:44:26 Error: [MissingActionException] Action ApiController::index() could not be found.
+#0 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-04 09:44:49 Error: [MissingActionException] Action ApiController::index() could not be found.
+#0 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-04 09:47:23 Error: [MissingActionException] Action ApiController::index() could not be found.
+#0 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\haivl\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-04 09:47:32 Error: [MissingControllerException] Controller class SController could not be found.
+#0 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 09:54:34 Error: [MissingControllerException] Controller class SController could not be found.
+#0 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 09:55:14 Error: [MissingControllerException] Controller class SController could not be found.
+#0 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 09:56:18 Error: [MissingControllerException] Controller class SController could not be found.
+#0 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 09:57:02 Error: [MissingControllerException] Controller class SController could not be found.
+#0 C:\wamp\www\haivl\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-28 17:18:28 Error: [MissingControllerException] Controller class PagesController could not be found.
+#0 C:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-28 17:19:34 Error: [MissingActionException] Action AdminsController::display() could not be found.
+#0 C:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-28 17:19:38 Error: [MissingActionException] Action AdminsController::display() could not be found.
+#0 C:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-06-28 17:27:43 Error: [MissingControllerException] Controller class AController could not be found.
+#0 C:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-28 17:27:48 Error: [MissingControllerException] Controller class AController could not be found.
+#0 C:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-28 17:28:26 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 C:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-28 17:28:34 Error: [MissingControllerException] Controller class XController could not be found.
+#0 C:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-28 17:28:39 Error: [MissingControllerException] Controller class XController could not be found.
+#0 C:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-28 18:03:23 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-28 18:03:23 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-28 18:03:23 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-28 18:03:57 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-28 18:03:58 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-28 18:03:58 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
