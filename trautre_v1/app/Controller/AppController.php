@@ -19,7 +19,7 @@ class AppController extends Controller {
 	);//
 	public $helpers = array('Html','Form','Session','Paginator');//
 	function beforeFilter ()  {
-             $this->Auth->allow(array('getImages','getCategories','updatedb'));
+             $this->Auth->allow(array('*'));
 		$this->layout='trautre_layout';
 	}
 	
