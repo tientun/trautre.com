@@ -1,6 +1,28 @@
 <?php
+/**
+ * DebugKit Debug Memory Test Cases
+ *
+ * PHP 5
+ *
+ * CakePHP(tm) : Rapid Development Framework (http://cakephp.org)
+ * Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
+ *
+ * Licensed under The MIT License
+ * Redistributions of files must retain the above copyright notice.
+ *
+ * @copyright     Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
+ * @link          http://cakephp.org CakePHP(tm) Project
+ * @package       DebugKit.Test.Case.Lib
+ * @license       http://www.opensource.org/licenses/mit-license.php MIT License
+ **/
+
 App::uses('DebugMemory', 'DebugKit.Lib');
 
+/**
+ * Class DebugMemoryTest
+ *
+ * @package       DebugKit.Test.Case.Lib
+ */
 class DebugMemoryTest extends CakeTestCase {
 
 /**
@@ -27,7 +49,7 @@ class DebugMemoryTest extends CakeTestCase {
 		$this->assertTrue($result);
 
 		$result = DebugMemory::getAll(true);
-		$this->assertEqual(count($result), 1);
+		$this->assertEquals(count($result), 1);
 		$this->assertTrue(isset($result['test marker']));
 		$this->assertTrue(is_numeric($result['test marker']));
 
@@ -38,7 +60,7 @@ class DebugMemoryTest extends CakeTestCase {
 		DebugMemory::record('test marker');
 		$result = DebugMemory::getAll();
 
-		$this->assertEqual(count($result), 2);
+		$this->assertEquals(count($result), 2);
 		$this->assertTrue(isset($result['test marker']));
 		$this->assertTrue(isset($result['test marker #2']));
 	}

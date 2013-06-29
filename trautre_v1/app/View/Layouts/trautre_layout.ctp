@@ -18,7 +18,6 @@
     </head>
 
     <body>
-
         <!-- Header -->
         <?php echo $this->element('trautre_header'); ?>   
 

@@ -6,10 +6,10 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'root',
-		'password' => '',
+		'password' => '123456',
 		// 'login' => 'thuyvi_pervule',
 		// 'password' => '#D#Wuy~P)$sV',
-		'database' => 'tete_haivl',
+		'database' => 'trautre_db',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);

@@ -11,22 +11,22 @@
     <!-- List Picture -->
     <div class="photoList">
 
-        <!-- The First Photo -->
+        <!--  Photo 1 -->
         <div class="photoListItem" data-id="614669">
             <div class="listItemSeparator"> </div>
 
             <!-- Photo -->
             <div class="thumbnail">
                 <a target="_blank" href="#">
-                    <img class="thumbImg" alt="Bần tăng rất it khi hút thuốc :v" src="http://s2.haivl.com/data/photos2/20130616/75928485050a4036ba2f1ee35ccd4c0c/medium-4e07ef9a7e814777a9a07812f7966c2a-400.jpg">
+                    <img class="thumbImg" alt="Bần tăng rất it khi hút thuốc :v" 
+                         src="http://s6.haivl.com/data/photos2/20130629/ca4c910ac0594c979ca6e5130e7638a8/medium-039e61b2ab274fd4afc4365fbfbbe81d-400.jpg">
                 </a>
             </div>
-
             <!-- Note -->
             <div class="info0">
                 <h2>
                     <a href="#" target="_blank">
-                        Bần tăng rất it khi hút thuốc
+                        Photo 1
                         <img class="emo" src="http://s.haivl.com/content/images/emo/static/wtf.png">
                     </a>
                 </h2>
@@ -69,19 +69,18 @@
                 </div>
             </div> 
             <div class="clear"></div>
-        </div> 
-
+        </div>         
         <div class="clear"> </div>
-
+        <!-- Photo 2-->
         <div class="photoListItem" data-id="608121">
             <div class="listItemSeparator"> </div>
             <div class="thumbnail">
                 <a target="_blank" href="#">
-                    <img class="thumbImg" alt="Em dồn hết tâm huyết vào rồi, lần này mà k lên đc thì em... chế tiếp" src="http://s2.haivl.com/data/photos2/20130615/a57488ac43154cc1a199591d54253c8d/medium-b6a4af4a9c124bc39d7654d278789b68-400.jpg">
+                    <img class="thumbImg" alt="Em dồn hết tâm huyết vào rồi, lần này mà k lên đc thì em... chế tiếp" src="http://s4.haivl.com/data/photos2/20130628/ec90c307569b4b06b5f550680aeeedb1/medium-7e935d8b2564476293a02c1df3a343b3-400.jpg">
                 </a>
             </div>
             <div class="info1">
-                <h2><a href="#" target="_blank">Em dồn hết tâm huyết vào rồi, lần này mà k lên đc thì em... chế tiếp </a></h2>
+                <h2><a href="#" target="_blank">Photo 2 </a></h2>
                 <div class="uploader">Đăng bởi
                     <a href="#">Lê Hữu Cường</a>6 phút trước
                 </div>
@@ -99,11 +98,12 @@
                         </span>
                     </div>
                 </div>                                                                                   
-
-            </div>
-            <div class="clear"></div>
+               
+            </div>            
+             <div class="clear"></div>
         </div> 
         <div class="clear"> </div>
+<!-- Photo 3-->
         <div class="photoListItem" data-id="621268">
             <div class="listItemSeparator"> </div>
             <div class="thumbnail">
@@ -113,7 +113,7 @@
             </div>
             <div class="info2">
                 <h2>
-                    <a href="#" target="_blank">WT Hợi????</a>
+                    <a href="#" target="_blank">Photo 3</a>
                 </h2>
                 <div class="uploader">
                     Đăng bởi
@@ -138,15 +138,16 @@
             <div class="clear"> </div>
         </div>
         <div class="clear"> </div>
+<!-- Photo 4-->                
         <div class="photoListItem" data-id="608121">
             <div class="listItemSeparator"> </div>
             <div class="thumbnail">
                 <a target="_blank" href="#">
-                    <img class="thumbImg" alt="Em dồn hết tâm huyết vào rồi, lần này mà k lên đc thì em... chế tiếp" src="http://s2.haivl.com/data/photos2/20130615/a57488ac43154cc1a199591d54253c8d/medium-b6a4af4a9c124bc39d7654d278789b68-400.jpg">
+                    <img class="thumbImg" alt="Em dồn hết tâm huyết vào rồi, lần này mà k lên đc thì em... chế tiếp" src="http://s2.haivl.com/data/photos2/20130629/a1cf7295c50f47d398191a8337dc9c0f/medium-65674f5423a84249b0be04ba56365f63-400.jpg">
                 </a>
             </div>
             <div class="info3">
-                <h2><a href="#" target="_blank">Em dồn hết tâm huyết vào rồi, lần này mà k lên đc thì em... chế tiếp </a></h2>
+                <h2><a href="#" target="_blank">Photo 4 </a></h2>
                 <div class="uploader">Đăng bởi
                     <a href="#">Lê Hữu Cường</a>6 phút trước
                 </div>
@@ -169,11 +170,12 @@
             <div class="clear"></div>
         </div> 
         <div class="clear"> </div>
+<!-- Photo 5-->
         <div class="photoListItem" data-id="608121">
             <div class="listItemSeparator"> </div>
             <div class="thumbnail">
                 <a target="_blank" href="#">
-                    <img class="thumbImg" alt="Em dồn hết tâm huyết vào rồi, lần này mà k lên đc thì em... chế tiếp" src="http://s2.haivl.com/data/photos2/20130615/a57488ac43154cc1a199591d54253c8d/medium-b6a4af4a9c124bc39d7654d278789b68-400.jpg">
+                    <img class="thumbImg" alt="Em dồn hết tâm huyết vào rồi, lần này mà k lên đc thì em... chế tiếp" src="http://s2.haivl.com/data/photos2/20130629/a1cf7295c50f47d398191a8337dc9c0f/medium-65674f5423a84249b0be04ba56365f63-400.jpg">
                 </a>
             </div>
             <div class="info4">
@@ -200,11 +202,12 @@
             <div class="clear"></div>
         </div> 
         <div class="clear"> </div>
+        <!-- Photo 6-->
         <div class="photoListItem" data-id="608121">
             <div class="listItemSeparator"> </div>
             <div class="thumbnail">
                 <a target="_blank" href="#">
-                    <img class="thumbImg" alt="Em dồn hết tâm huyết vào rồi, lần này mà k lên đc thì em... chế tiếp" src="http://s2.haivl.com/data/photos2/20130615/a57488ac43154cc1a199591d54253c8d/medium-b6a4af4a9c124bc39d7654d278789b68-400.jpg">
+                    <img class="thumbImg" alt="Em dồn hết tâm huyết vào rồi, lần này mà k lên đc thì em... chế tiếp" src="http://s2.haivl.com/data/photos2/20130629/a1cf7295c50f47d398191a8337dc9c0f/medium-65674f5423a84249b0be04ba56365f63-400.jpg">
                 </a>
             </div>
             <div class="info5">
