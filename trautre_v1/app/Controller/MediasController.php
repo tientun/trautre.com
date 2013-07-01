@@ -20,4 +20,7 @@ class MediasController extends AppController {
         public function upload(){
         
         }
+        public function v1(){
+            
+        }
 }
