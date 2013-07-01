@@ -17,4 +17,7 @@ class MediasController extends AppController {
 //		$this->User->recursive = 0;
 //		$this->set('users', $this->paginate());
 	}
+        public function upload(){
+        
+        }
 }

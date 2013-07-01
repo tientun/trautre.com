@@ -8,7 +8,7 @@
             <li> <a href="#">Hot</a> </li>
             <li> <a href="#">Cũ</a>  </li>
             <li> <a href="#">Bình chọn</a> </li>
-            <li> <a class="upload" href="#">Đăng ảnh</a> </li>
+            <li> <a class="upload" href="medias/upload">Đăng ảnh</a> </li>
             <li> <a href="#">Chế ảnh</a>  </li>
             <li> <a href="#">Tìm kiếm</a> </li>
             <li> <a target="_blank" href="http://h2o.vn/">Diễn đàn</a> </li>
