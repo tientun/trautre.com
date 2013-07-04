@@ -9,7 +9,7 @@ class DATABASE_CONFIG {
 		'password' => '123456',
 		// 'login' => 'thuyvi_pervule',
 		// 'password' => '#D#Wuy~P)$sV',
-		'database' => 'trautre_db',
+		'database' => 'trautre_test',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);
