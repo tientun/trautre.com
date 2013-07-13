@@ -21,29 +21,32 @@ class MediasController extends AppController {
             if (empty($this->data)) {
                     $this->render();
             } 
-            else {            
+            else {      
+                $time = microtime ( 1 ) * 1000;
                 $destination = realpath('../../app/webroot/img/uploads/') . '/';                                        
                 $dir = realpath('../../app/webroot/img/uploads/') . '/';                                        
-                    $file = $this->data['Media']['photos'];                    
-                    $sizes = getimagesize($file['tmp_name']);                
-                    $width = $sizes[0];$height = $sizes[1];               
-                //$file['name']=md5($time).$file['name'];
+                $file = $this->data['Media']['photos'];                    
+                $sizes = getimagesize($file['tmp_name']);                
+                $width = $sizes[0];$height = $sizes[1];               
+                $file['name']=md5($time).$file['name'];
 
             if(@move_uploaded_file($file['tmp_name'],$dir.$file['name']))
             {
-            //Dòng này là ảnh sẽ được upload
-            $main_img         = $dir.$file['name']; // main big photo / picture
+                //Dòng này là ảnh sẽ được upload
+                $main_img         = $dir.$file['name'];
 
-            //Dòng này là ảnh sẽ đóng dấu lên ảnh được upload
-            $watermark_img    = "tamps.png"; // use GIF or PNG, JPEG has no tranparency support
-            $padding         = 3; // distance to border in pixels for watermark image
-            $opacity        = 100;    // image opacity for transparent watermark
+                //Dòng này là ảnh sẽ đóng dấu lên ảnh được upload
+                $watermark_img    = "tamps.png"; // use GIF or PNG, JPEG has no tranparency support
+                $padding         = 3; // distance to border in pixels for watermark image
+                $opacity        = 100;    // image opacity for transparent watermark
 
-            $watermark     = imagecreatefrompng($dir.$watermark_img); // create watermark
-            
-            $image         = imagecreatefromjpeg($main_img); // create main graphic
-
-            if(!$image || !$watermark) die("Error: main image or watermark could not be loaded!");
+                $filetype = strtolower(substr($main_img,strlen($main_img)-4,4));
+                if($filetype == ".gif") $image = @imagecreatefromgif($main_img); 
+                if($filetype == ".jpg") $image = @imagecreatefromjpeg($main_img); 
+                if($filetype == ".png") $image = @imagecreatefrompng($main_img); 
+                $watermark     = imagecreatefrompng($dir.$watermark_img); // create watermark            
+                //$image         = imagecreatefromjpeg($main_img); // create main graphic
+                if(!$image || !$watermark) die("Error: main image or watermark could not be loaded!");
 
             $watermark_size     = getimagesize($dir.$watermark_img);
             $watermark_width     = $watermark_size[0];
@@ -56,7 +59,6 @@ class MediasController extends AppController {
             // copy watermark on main image
             imagecopymerge($image, $watermark, $dest_x, $dest_y, 0, 0, $watermark_width, $watermark_height, $opacity);
 
-                
                 
                 /*
                     // đường dẫn tới thu mục upload file ảnh
