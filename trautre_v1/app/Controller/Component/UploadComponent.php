@@ -117,7 +117,8 @@ class UploadComponent extends Object {
                             // -- just upload it
                             if (move_uploaded_file($fileTmp, $output)) {
                                 chmod($output, 0644);
-                                $this->result = basename($this->_name);
+                                $this->result = basename($this->_name);                                                                                                
+                                //==============                                                                
                             } else {
                                 $this->error("Could not move '$fileName' to '$destination'");
                             }
