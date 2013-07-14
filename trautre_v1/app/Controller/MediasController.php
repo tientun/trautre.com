@@ -23,7 +23,7 @@ class MediasController extends AppController {
             } 
             else {      
                 $time = microtime ( 1 ) * 1000;
-                $destination = realpath('../../app/webroot/img/uploads/') . '/';                                        
+                //$destination = realpath('../../app/webroot/img/uploads/') . '/';                                        
                 $dir = realpath('../../app/webroot/img/uploads/') . '/';                                        
                 $file = $this->data['Media']['photos'];                    
                 $sizes = getimagesize($file['tmp_name']);                
@@ -96,12 +96,16 @@ class MediasController extends AppController {
                                     $this->Session->setFlash($errors);
                                     $this->redirect('/medias/upload');
                                     exit();
-                    }                                          
+                    }                
+                 
+                 */                          
                     //$media_type_id = 1;
                     //$stat_id = 1;          
-                    $name = $_POST['Caption']; //nvarchar
+                    $name = $_POST['Caption']; //nvarchar                     
+                    if($_POST['Source'] == "")  $link = 'Tu lam';
+                    else $link = $_POST['Source'];//nvarchar
                     $author = "lhlong";//nvarchar
-                    $link = $_POST['Source'];//nvarchar                
+                    
                     //$date = null; //time                
                     $data = array(
                         'Media' => array(
@@ -125,7 +129,7 @@ class MediasController extends AppController {
                             $this->redirect('/medias/index');
                     }    
                     
-                    */
+                    
             }
             }
  

@@ -1,3 +1,23 @@
+function clickMade(cb) {
+  if(document.getElementById('IsSelfMade').checked == true){
+                document.getElementById('Source').disabled = true;
+                document.getElementById('Source').value = "";
+            }
+            else{
+                
+                document.getElementById('Source').disabled = false;
+            }
+};
+/*
+    $(document).ready(function(){// Bắt lấy sự kiện người dùng click vào checkbox hay chưa
+            if(document.getElementById('submitForm.IsSelfMade').checked == true){
+                document.getElementById('Source').disabled = true;
+            }
+            else{
+                document.getElementById('Source').disabled = true;
+            }
+    });
+    */
 $(window).scroll(function(){       
     var array = [];
     var k = 0;

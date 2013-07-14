@@ -7,7 +7,7 @@
                                 <b style="color: red">Nội quy</b>
                                 ở bên phải nhé!
                             </div>
-                            <form class="submitForm" method="post" action="<?php echo $this->Html->url('/medias/upload'); ?>" enctype="multipart/form-data">
+                            <form id ="submitForm" class="submitForm" method="post" action="<?php echo $this->Html->url('/medias/upload'); ?>" enctype="multipart/form-data">
                                 <p class="required">
                                     <label for="file"> Chọn file ảnh (không quá 2Mb)</label>                                    
                                         <?php echo $this->Form->file('Media.photos');?>
@@ -23,13 +23,16 @@
                                     <span class="field-validation-valid" data-valmsg-replace="true" data-valmsg-for="Caption"></span>
                                 </p>
                                 <p>
-                                    <input id="IsSelfMade" class="checkBoxWidth" type="checkbox" value="true" name="IsSelfMade" data-val-required="The Ảnh này do tui tự làm! field is required." data-val="true">
+                                    <input id="IsSelfMade" class="checkBoxWidth" type="checkbox" value="true" name="IsSelfMade"
+                                           data-val-required="The Ảnh này do tui tự làm! field is required." data-val="true"
+                                           onclick='clickMade(this);' >
                                     <input type="hidden" value="false" name="IsSelfMade">
                                     <label class="checkboxLabel" for="IsSelfMade">Ảnh này do tui tự làm!</label>
                                 </p>
                                 <p>
                                     <label for="Source">Nguồn của ảnh</label>
-                                    <input id="Source" class="text largeWidth" type="text" value="" name="Source" data-val-length-max="1000" data-val-length="Không nhập quá 1000 ký tự." data-val="true">
+                                    <input id="Source" class="text largeWidth" type="text" value="" name="Source" data-val-length-max="1000" 
+                                           data-val-length="Không nhập quá 1000 ký tự." data-val="true">
                                     <span class="field-validation-valid" data-valmsg-replace="true" data-valmsg-for="Source"></span>
                                 </p>
                                 
