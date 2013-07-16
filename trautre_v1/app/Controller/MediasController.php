@@ -27,10 +27,24 @@ class MediasController extends AppController {
                 //$destination = realpath('../../app/webroot/img/uploads/') . '/';                                        
                 $dir = realpath(WWW_ROOT . 'uploaded/images/data/') . '/';                                        
                 $file = $this->data['Media']['photos'];                    
-                $sizes = getimagesize($file['tmp_name']);                
+                $sizes = getimagesize($file['tmp_name']);
                 $width = $sizes[0];$height = $sizes[1];               
                 $file['name']=md5($time).$file['name'];
-
+                
+                $filetype = strtolower(substr($file['name'],strlen($file['name'])-4,4));
+                $filetype = strtolower($filetype);  //chuyen sang chu thuong
+                
+                $size=filesize($file['tmp_name']);
+                if ($size > 2000*1024)
+                {
+                    die('<h1>Vượt quá dung lượng cho phép!</h1>');                      
+                }
+                if (($filetype != ".jpg") && ($filetype != "jpeg") && ($filetype !=".png") 
+                        && ($filetype != ".gif")){
+                    die("<h1>Đây không phải là file hình!</h1> $filetype s");
+                }
+                else
+                {
                 if(@move_uploaded_file($file['tmp_name'],$dir.$file['name']))
                 {
                     //Dòng này là ảnh sẽ được upload
@@ -40,10 +54,10 @@ class MediasController extends AppController {
                     $watermark_img    = "test.png"; // use GIF or PNG, JPEG has no tranparency support
                     $padding         = 3; // distance to border in pixels for watermark image
                     $opacity        = 100;    // image opacity for transparent watermark
-
-                    $filetype = strtolower(substr($main_img,strlen($main_img)-4,4));
+                    
+                    //$filetype = strtolower(substr($main_img,strlen($main_img)-4,4));
                     if($filetype == ".gif") $image = @imagecreatefromgif($main_img); 
-                    if($filetype == ".jpg") $image = @imagecreatefromjpeg($main_img); 
+                    if($filetype == ".jpg" || $filetype == "jpeg") $image = @imagecreatefromjpeg($main_img); 
                     if($filetype == ".png") $image = @imagecreatefrompng($main_img); 
                     $watermark     = imagecreatefrompng($dir.$watermark_img); // create watermark   
 
@@ -59,8 +73,7 @@ class MediasController extends AppController {
                     $dest_y         = $image_size[1] - $watermark_height - $padding;
                 // copy watermark on main image
                 imagecopymerge($image, $watermark, 0,0, 0, 0, 
-                        $watermark_width, $watermark_height, $opacity);
-                
+                        $watermark_width, $watermark_height, $opacity);                
                 
                 /*
                     // đường dẫn tới thu mục upload file ảnh
@@ -136,9 +149,9 @@ class MediasController extends AppController {
                     }                                            
             }
             else{
-                die("2. Upload Error!");
+                die("2. Can't upload this type image.");
             }
-            }
+            }}
  
         }
         public function v1(){

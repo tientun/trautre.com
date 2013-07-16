@@ -327,10 +327,7 @@ class UploadComponent extends Object {
                     break;
                 case 'jpeg':
                     $write = imagegif($dstImg, $this->_name . ".jpeg", $quality);
-                    break;
-                case 'JPEG':
-                    $write = imagegif($dstImg, $this->_name . ".JPEG", $quality);
-                    break;
+                    break;                
             }
             
             // -- clean up
