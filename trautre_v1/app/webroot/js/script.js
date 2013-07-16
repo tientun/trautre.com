@@ -3,8 +3,7 @@ function clickMade(cb) {
                 document.getElementById('Source').disabled = true;
                 document.getElementById('Source').value = "";
             }
-            else{
-                
+            else{                
                 document.getElementById('Source').disabled = false;
             }
 };

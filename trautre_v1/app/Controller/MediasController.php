@@ -19,7 +19,7 @@ class MediasController extends AppController {
 	}
         function upload() {                     
             if (empty($this->data)) {
-                    die("1. Upload Error!");
+                    //die("1. Upload Error!");
                     $this->render();
             } 
             else {      
