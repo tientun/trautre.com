@@ -7,7 +7,9 @@
                                 <b style="color: red">Nội quy</b>
                                 ở bên phải nhé!
                             </div>
-                            <form id ="submitForm" class="submitForm" method="post" action="<?php echo $this->Html->url('/medias/upload'); ?>" enctype="multipart/form-data">
+                            <form id ="submitForm" class="submitForm" method="post" 
+                                  action="<?php echo $this->Html->url('/medias/upload'); ?>" 
+                                  enctype="multipart/form-data">
                                 <p class="required">
                                     <label for="file"> Chọn file ảnh (không quá 2Mb)</label>                                    
                                         <?php echo $this->Form->file('Media.photos');?>

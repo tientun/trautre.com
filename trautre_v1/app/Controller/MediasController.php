@@ -17,7 +17,7 @@ class MediasController extends AppController {
  */
 	public function index() {                
 	}
-        function upload() {                     
+        public function upload() {                     
             if (empty($this->data)) {
                     //die("1. Upload Error!");
                     $this->render();
@@ -138,23 +138,33 @@ class MediasController extends AppController {
                     );
                     
                     if ($this->Media->save($data)) {
+                        var_dump($data);   //xem noi dung cua doi tuong
+                            
+                            $this->Session->setFlash('Image has been added.');
                             die("Upload success!!");
-                            //$this->Session->setFlash('Image has been added.');
                             //$this->redirect('/medias/v1');
                     } else {
+                            $this->Session->setFlash('Please correct errors below.');
                             die("3. Upload Error!!");
-                            //$this->Session->setFlash('Please correct errors below.');
+                            
+                            
                             //unlink($destination.$this->Upload->result);
                             $this->redirect('/medias/index');
                     }                                            
             }
             else{
-                die("2. Can't upload this type image.");
+                //die("2. Can't upload this type image.");
+                $this->Session->setFlash("Can't upload this type image.");
             }
             }}
  
         }
         public function v1(){
+            
+        }
+        
+        public function vote()
+        {
             
         }
 }
