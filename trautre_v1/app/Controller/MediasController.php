@@ -1,28 +1,18 @@
 <?php
 App::uses('AppController', 'Controller');
-/**
- * Users Controller
- *
- * @property User $User
- */
 class MediasController extends AppController {
-
     var $name = 'Medias';
-    var $helpers = array('Html', 'Form', 'Time', 'Images');
-    var $components = array('Upload');      // nạp Component upload        
-/**
- * index method
- *
- * @return void
- */
-	public function index() {                
+    var $helpers = array('Html', 'Form', 'Time', 'Images', 'Session');
+    var $components = array('Upload', 'Session');      // nạp Component upload   
+                                    //su dung session trong Controller khai bao o components
+    public function index() {                
 	}
-        public function upload() {                     
-            if (empty($this->data)) {
-                    //die("1. Upload Error!");
-                    $this->render();
+    public function upload() {                     
+        if (empty($this->data)) {
+                    //die("1. Upload Error!");                
+                    $this->render();                    
             } 
-            else {      
+            else {                    
                 $time = microtime ( 1 ) * 1000;
                 //$destination = realpath('../../app/webroot/img/uploads/') . '/';                                        
                 $dir = realpath(WWW_ROOT . 'uploaded/images/data/') . '/';                                        
@@ -138,33 +128,32 @@ class MediasController extends AppController {
                     );
                     
                     if ($this->Media->save($data)) {
-                        var_dump($data);   //xem noi dung cua doi tuong
-                            
-                            $this->Session->setFlash('Image has been added.');
-                            die("Upload success!!");
-                            //$this->redirect('/medias/v1');
+                        //var_dump($data);   //xem noi dung cua doi tuong  
+                        //$this->Session->setFlash('I miss you all the time', 'sms', array('class' => 'message_01'));
+                        $this->Session->setFlash('Image has been added.');
+                        //  die("Upload success!!");
+                        $this->redirect('/medias/v1');
                     } else {
                             $this->Session->setFlash('Please correct errors below.');
-                            die("3. Upload Error!!");
-                            
-                            
+                            die("3. Upload Error!!");                                                        
                             //unlink($destination.$this->Upload->result);
                             $this->redirect('/medias/index');
-                    }                                            
+                    }            
             }
             else{
                 //die("2. Can't upload this type image.");
-                $this->Session->setFlash("Can't upload this type image.");
+                $this->Session->setFlash("Can't upload this type image.");                
             }
             }}
  
         }
-        public function v1(){
+    
+    public function v1(){
             
         }
         
-        public function vote()
-        {
+    public function vote()
+    {
             
-        }
+    }
 }

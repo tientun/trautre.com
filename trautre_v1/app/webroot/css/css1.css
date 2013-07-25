@@ -83,6 +83,10 @@ li {
 #loginPanel .loginButton, .searchButton {
     transition: background-color 0.2s linear 0s;
 }
+#buttonChecking:hover{
+    background-color: #0a0;
+    color: white;
+}
 #loginPanel .loginButton:hover, .searchButton:hover {
     background-color: #555555;
     color: white;

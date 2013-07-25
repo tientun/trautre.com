@@ -11,7 +11,7 @@
             <li> <a class="upload" href="/medias/upload">Đăng ảnh</a> </li>
             <li> <a href="#">Chế ảnh</a>  </li>
             <li> <a href="#">Tìm kiếm</a> </li>
-            <li> <a target="_blank" href="http://h2o.vn/">Diễn đàn</a> </li>
+            <li> <a target="_blank" href="#">Diễn đàn</a> </li>
         </ul>
 
         <!-- login-->
