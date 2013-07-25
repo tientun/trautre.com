@@ -102,8 +102,13 @@
                         </span>
                     </div>
                 </div>                                                                                   
-               
-            </div>            
+               <br/><br/>
+            <div id="btChecking">
+                    <button id="buttonChecking" class="buttons">Duyệt</button>
+            </div>
+            </div>  
+            
+            
              <div class="clear"></div>
         </div> 
         <div class="clear"> </div>
@@ -138,7 +143,13 @@
                     </div>
 
                 </div>
+                <br/><br/>
+            <div id="btChecking">
+                    <button id="buttonChecking" class="buttons">Duyệt</button>
             </div>
+            </div>
+            
+            
             <div class="clear"> </div>
         </div>
         <div class="clear"> </div>
@@ -169,8 +180,13 @@
                         </span>
                     </div>
                 </div>                                                                                   
-
+                <br/><br/>
+            <div id="btChecking">
+                    <button id="buttonChecking" class="buttons">Duyệt</button>
             </div>
+            </div>
+            
+            
             <div class="clear"></div>
         </div> 
         <div class="clear"> </div>
@@ -201,8 +217,13 @@
                         </span>
                     </div>
                 </div>                                                                                   
-
+                <br/><br/>
+            <div id="btChecking">
+                    <button id="buttonChecking" class="buttons">Duyệt</button>
             </div>
+            </div>
+            
+            
             <div class="clear"></div>
         </div> 
         <div class="clear"> </div>
@@ -232,8 +253,13 @@
                             </iframe>
                         </span>
                     </div>
-                </div>                                                                                                                           
+                </div>  
+                <br/><br/>
+            <div id="btChecking">
+                    <button id="buttonChecking" class="buttons">Duyệt</button>
             </div>
+            </div>            
+            
             <div class="clear"></div>
         </div> 
         <div class="clear"></div>
