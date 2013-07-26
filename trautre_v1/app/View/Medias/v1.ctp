@@ -34,7 +34,9 @@
                             <div class="likeButton fixedScroll " >
                                 <div class="text"> Thích ảnh này? </div>
                                 <div class="fbLikeButton">
-                                    <div class="fb-like fb_edge_widget_with_comment fb_iframe_widget" data-layout="button_count" data-show-faces="false" data-send="false" data-href="http://www.haivl.com/photo/639382" fb-xfbml-state="rendered">
+                                    <div class="fb-like fb_edge_widget_with_comment fb_iframe_widget" 
+                                         data-layout="button_count" data-show-faces="false" data-send="false" 
+                                         data-href="http://www.haivl.com/photo/639382" fb-xfbml-state="rendered">
                                         <span style="height: 20px; width: 74px;">
                                             <iframe id="f1a4810ab8b2b7e" class="fb_ltr" scrolling="no" name="fd06f4b4703d3" style="border: medium none; overflow: hidden; height: 20px; width: 74px;" title="Like this content on Facebook." src="http://www.facebook.com/plugins/like.php?api_key=378808135489760&locale=en_US&sdk=joey&channel_url=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D25%23cb%3Dfc8021d4a0bdfe%26origin%3Dhttp%253A%252F%252Fwww.haivl.com%252Ff3ac7007afeee26%26domain%3Dwww.haivl.com%26relation%3Dparent.parent&href=http%3A%2F%2Fwww.haivl.com%2Fphoto%2F639382&node_type=link&width=90&layout=button_count&colorscheme=light&show_faces=false&send=false&extended_social_context=false"></iframe>
                                         </span>
@@ -51,7 +53,9 @@
                             </div>
                             <div class="featuredFanPage">
                                 <h4> Like haivl trên Facebook để được cười nhiều hơn ^^</h4>
-                                <div class="fb-like fb_edge_widget_with_comment fb_iframe_widget" data-show-faces="false" data-width="600" data-send="false" data-href="http://www.facebook.com/haivl.com" fb-xfbml-state="rendered">
+                                <div class="fb-like fb_edge_widget_with_comment fb_iframe_widget" 
+                                     data-show-faces="false" data-width="600" data-send="false" 
+                                     data-href="http://www.facebook.com/haivl.com" fb-xfbml-state="rendered">
                                     <span style="height: 24px; width: 600px;">
                                         <iframe id="f948cb64e7486a" class="fb_ltr" scrolling="no" name="f1457bd997ffadc" style="border: medium none; overflow: hidden; height: 24px; width: 600px;" title="Like this content on Facebook." src="http://www.facebook.com/plugins/like.php?api_key=378808135489760&locale=en_US&sdk=joey&channel_url=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D25%23cb%3Dfc5aefcdae2af2%26origin%3Dhttp%253A%252F%252Fwww.haivl.com%252Ff3ac7007afeee26%26domain%3Dwww.haivl.com%26relation%3Dparent.parent&href=http%3A%2F%2Fwww.facebook.com%2Fhaivl.com&node_type=link&width=600&layout=standard&colorscheme=light&show_faces=false&send=false&extended_social_context=false">
                                         </iframe>
@@ -67,11 +71,38 @@
                                     <b class="meo">Mẹo: </b>
                                     Có rất nhiều mẹo, F5 để đọc thêm
                                 </div>
-                                <div class="fb-comments fb_iframe_widget" data-width="655" data-num-posts="15" data-href="http://www.haivl.com/photo/639382" fb-xfbml-state="rendered">
+                                <?php
+                                function facebook_shares($url){
+                                    $fql  = "SELECT url, normalized_url, share_count, like_count, comment_count, ";
+                                    $fql .= "total_count, commentsbox_count, comments_fbid, click_count FROM ";
+                                    $fql .= "link_stat WHERE url = '".$url."'";     
+                                    $apifql="https://api.facebook.com/method/fql.query?format=json&query=".urlencode($fql);
+                                    $fb_json=file_get_contents($apifql);
+                                    return json_decode($fb_json);     
+                                }
+                                ?>
+            <div>
+                <?php
+                    $fb = facebook_shares('http://www.facebook.com/haivl.com');
+                    var_dump($fb);                     
+                    // facebook like count
+                    echo "Like: {$fb[0]->like_count} ";
+                    // facebook comment count
+                    echo "Comment: {$fb[0]->comment_count} ";
+?>
+            </div><br/><br/>
+               <!--                 
+                                <div class="fb-comments fb_iframe_widget" data-width="655" data-num-posts="15" 
+                                        data-href="http://www.haivl.com/photo/639382" fb-xfbml-state="rendered">
                                     <span style="height: 2956px; width: 655px;">
-                                    <iframe id="f2e3823ee1f3a9a" class="fb_ltr" scrolling="no" name="f316cc4989a0a04" style="border: medium none; overflow: hidden; height: 2956px; width: 655px;" title="Facebook Social Plugin" src="https://www.facebook.com/plugins/comments.php?api_key=378808135489760&locale=en_US&sdk=joey&channel_url=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D25%23cb%3Df1cc753a16b5c32%26origin%3Dhttp%253A%252F%252Fwww.haivl.com%252Ff3ac7007afeee26%26domain%3Dwww.haivl.com%26relation%3Dparent.parent&numposts=15&width=655&href=http%3A%2F%2Fwww.haivl.com%2Fphoto%2F639382"></iframe>
+                                    <iframe id="f2e3823ee1f3a9a" class="fb_ltr" scrolling="no" 
+                                            name="f316cc4989a0a04" style="border: medium none;
+                                            overflow: hidden; height: 2956px; width: 655px;" 
+                                            title="Facebook Social Plugin" 
+                                            src="https://www.facebook.com/plugins/comments.php?api_key=378808135489760&locale=en_US&sdk=joey&channel_url=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D25%23cb%3Df1cc753a16b5c32%26origin%3Dhttp%253A%252F%252Fwww.haivl.com%252Ff3ac7007afeee26%26domain%3Dwww.haivl.com%26relation%3Dparent.parent&numposts=15&width=655&href=http%3A%2F%2Fwww.haivl.com%2Fphoto%2F639382"></iframe>
                                     </span>
                                 </div>
+            -->
                             </div>
                         
                         

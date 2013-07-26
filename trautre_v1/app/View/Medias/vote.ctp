@@ -64,14 +64,43 @@
                 <a target="_blank" href="http://www.facebook.com/haivl.com">haivl trên Facebook</a>
                 để được cười nhiều hơn nhé ^^
             </h4>
+            <?php
+                function facebook_shares($url){
+                    $fql  = "SELECT url, normalized_url, share_count, like_count, comment_count, ";
+                    $fql .= "total_count, commentsbox_count, comments_fbid, click_count FROM ";
+                    $fql .= "link_stat WHERE url = '".$url."'";     
+                    $apifql="https://api.facebook.com/method/fql.query?format=json&query=".urlencode($fql);
+                    $fb_json=file_get_contents($apifql);
+                    return json_decode($fb_json);     
+                }
+                ?>
+            <div>
+                <?php
+                    $fb = facebook_shares('https://www.facebook.com/nolgefal');
+
+                    // facebook share count
+                    echo $fb[0]->share_count;
+
+                    // facebook like count
+                    echo $fb[0]->like_count;
+
+                    // facebook comment count
+                    echo $fb[0]->comment_count;
+?>
+            </div>
+            <!--
             <div class="media facebook">
                 <div class="fb-like fb_edge_widget_with_comment fb_iframe_widget" data-show-faces="false" data-width="400" data-send="false" data-href="http://www.facebook.com/haivl.com" fb-xfbml-state="rendered">
                     <span style="height: 30px; width: 400px;">
-                        <iframe id="f59c872fe706e4" class="fb_ltr" scrolling="no" name="f54a866a53dfca" style="border: medium none; overflow: hidden; height: 30px; width: 600px;" title="Like this content on Facebook." src="http://www.facebook.com/plugins/like.php?api_key=378808135489760&locale=en_US&sdk=joey&channel_url=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D25%23cb%3Df1587afa4059ace%26origin%3Dhttp%253A%252F%252Fwww.haivl.com%252Ffb2224023014b%26domain%3Dwww.haivl.com%26relation%3Dparent.parent&href=http%3A%2F%2Fwww.facebook.com%2Fhaivl.com&node_type=link&width=270&layout=standard&colorscheme=light&show_faces=false&send=false&extended_social_context=false">    
+                        <iframe id="f59c872fe706e4" class="fb_ltr" scrolling="no" name="f54a866a53dfca" 
+                                style="border: medium none; overflow: hidden; height: 30px; width: 600px;" 
+                                title="Like this content on Facebook." 
+                                src="http://www.facebook.com/plugins/like.php?api_key=378808135489760&locale=en_US&sdk=joey&channel_url=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D25%23cb%3Df1587afa4059ace%26origin%3Dhttp%253A%252F%252Fwww.haivl.com%252Ffb2224023014b%26domain%3Dwww.haivl.com%26relation%3Dparent.parent&href=http%3A%2F%2Fwww.facebook.com%2Fhaivl.com&node_type=link&width=270&layout=standard&colorscheme=light&show_faces=false&send=false&extended_social_context=false">    
                         </iframe>
                     </span>
                 </div>
             </div> 
+            -->
             <div class="clear"></div>
         </div>         
         <div class="clear"> </div>
@@ -199,7 +228,7 @@
                 </a>
             </div>
             <div class="info4">
-                <h2><a href="#" target="_blank">Em dồn hết tâm huyết vào rồi, lần này mà k lên đc thì em... chế tiếp </a></h2>
+                <h2><a href="#" target="_blank">Picture 5 </a></h2>
                 <div class="uploader">Đăng bởi
                     <a href="#">Lê Hữu Cường</a>6 phút trước
                 </div>
