@@ -7,7 +7,7 @@
     </div>
     
 <?php foreach ($images as $image): ?>
-    <?php #var_dump($images); ?>
+    <?php #var_dump($image); ?>
 <tr>
     <td><?php #echo $image['Vote']['id']; ?></td>
     <td><?php #echo $image['Vote']['name']; ?></td>    
@@ -16,14 +16,18 @@
     <td><?php #echo $image['Vote']['date']; ?></td>  
 </tr>
 <?php endforeach; ?>
+<!-- PAGING -->
+<div style="text-align: right; font-size:12px; font-weight: bold; color: blue;">
 <?php
 	//shows the next and previous links
+ //$this->Paginator->settings = array('limit' => 10);
 	echo $this->Paginator->prev('<<-Previous ', null, null, array('class'=> 'disabled'));
 	//show page numbers
 	echo " | ".$this->Paginator->numbers()." | ";
 	echo $this->Paginator->next(' Next ->>', null, null, array('class'=>'disabled'));
 	echo " Page ".$this->Paginator->counter();
 	?>
+</div>
     <!-- List Picture -->
     <div class="photoList">
         <?php foreach ($images as $image) : ?>    
@@ -32,9 +36,12 @@
             <!-- Photo -->
             <div class="thumbnail">
                 <a target="_blank" href="#">
-                    <img class="thumbImg" alt="Bần tăng rất it khi hút thuốc :v" 
-                         src="http://s4.haivl.com/data/photos2/20130726/1e9fcc9c19da49bf81e81c210fef166f/medium-85b7532c98144327ad8e18fb0cf834bd-400.jpg">
-                </a>
+                    <?php #$string = $image['Image']['images']; ?>
+                    <img class="thumbImg"
+                         src="<?=$this->webroot?>uploaded/images/data/images.jpg" 
+                         alt="image test" />
+           
+          </a>
             </div>
             <!-- Information for photo -->
             <div class="info">
@@ -80,4 +87,16 @@
         </div>
 <?php endforeach; ?>
     </div>                              
+    <!-- PAGING -->
+<div style="text-align: right; font-size:12px; font-weight: 1em; color: blueviolet;">
+<?php
+	//shows the next and previous links
+ //$this->Paginator->settings = array('limit' => 10);
+	echo $this->Paginator->prev('<<-Previous ', null, null, array('class'=> 'disabled'));
+	//show page numbers
+	echo " | ".$this->Paginator->numbers()." | ";
+	echo $this->Paginator->next(' Next ->>', null, null, array('class'=>'disabled'));
+	echo " Page ".$this->Paginator->counter();
+	?>
+</div>
 </div>
