@@ -8,7 +8,7 @@
 	ở bên phải nhé!
 </div>
 <form id ="submitForm" class="submitForm" method="post" 
-	  action="<?php echo $this->Html->url('/medias/upload_rename'); ?>" 
+	  action="<?php echo $this->Html->url('/medias/upload'); ?>" 
 	  enctype="multipart/form-data">
 	<p class="required">
 		<label for="file"> Chọn file ảnh (không quá 2Mb)</label>   

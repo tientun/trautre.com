@@ -11,6 +11,7 @@ class MediasController extends AppController {
     {
         if(!empty($this->data))
         {
+            debug($this->data);exit;
             $path = dirname(__DIR__)."/webroot/uploaded/images";	
             $valid_formats = array("jpg",  "bmp","jpeg");
             $name = $this->data['Media']['photos']['name'];

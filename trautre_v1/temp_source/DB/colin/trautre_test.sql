@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Jul 27, 2013 at 10:07 AM
+-- Generation Time: Jul 27, 2013 at 10:13 AM
 -- Server version: 5.5.24-log
 -- PHP Version: 5.3.13
 
@@ -49,6 +49,8 @@ CREATE TABLE IF NOT EXISTS `medias` (
   `height` int(10) DEFAULT '0',
   `number_video` int(11) NOT NULL DEFAULT '0',
   `is_home` int(1) NOT NULL DEFAULT '0',
+  `is_source` int(1) NOT NULL DEFAULT '0',
+  `link_source` text,
   `created` datetime NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=9 ;
@@ -57,8 +59,8 @@ CREATE TABLE IF NOT EXISTS `medias` (
 -- Dumping data for table `medias`
 --
 
-INSERT INTO `medias` (`id`, `media_type_id`, `name`, `user_id`, `link`, `width`, `height`, `number_video`, `is_home`, `created`) VALUES
-(8, NULL, 'Oishi quan', 0, 'pts', 851, 315, 0, 0, '0000-00-00 00:00:00');
+INSERT INTO `medias` (`id`, `media_type_id`, `name`, `user_id`, `link`, `width`, `height`, `number_video`, `is_home`, `is_source`, `link_source`, `created`) VALUES
+(8, NULL, 'Oishi quan', 0, 'pts', 851, 315, 0, 0, 0, NULL, '0000-00-00 00:00:00');
 
 -- --------------------------------------------------------
 

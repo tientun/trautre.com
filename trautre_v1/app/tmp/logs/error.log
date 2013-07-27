@@ -2327,3 +2327,17 @@
 2013-07-26 13:47:16 Error: [MissingControllerException] Controller class DataController could not be found.
 #0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2013-07-27 10:11:04 Error: [MissingActionException] Action MediasController::upload_rename() could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-27 10:11:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-27 10:11:20 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-27 10:11:35 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
