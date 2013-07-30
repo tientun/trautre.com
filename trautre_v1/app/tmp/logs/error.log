@@ -2825,3 +2825,13 @@
 #1 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
 #2 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2013-07-30 07:08:15 Error: [MissingActionException] Action VotesController::<() could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(VotesController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-30 07:08:21 Error: [MissingActionException] Action VotesController::<() could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(VotesController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
