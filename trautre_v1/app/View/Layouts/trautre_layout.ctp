@@ -10,6 +10,7 @@
 
         echo $this->Html->script('jquery-1.9.1.min.js');
         echo $this->Html->script('script');
+        echo $this->Html->script('jquery.colin');
         ?>
 
         <!--[if lt IE 9]>

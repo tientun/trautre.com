@@ -32,13 +32,13 @@
  */
 	Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
         
-        Router::connect('/v/:action/*', array('controller' => 'photos'));
+    //Router::connect('/v/:action/*', array('controller' => 'photos'));
 
 /**
  * Load all plugin routes.  See the CakePlugin documentation on 
  * how to customize the loading of plugin routes.
  */
-	CakePlugin::routes();
+	//CakePlugin::routes();
 
 /**
  * Load the CakePHP default routes. Remove this if you do not want to use
@@ -47,4 +47,4 @@
 	require CAKE . 'Config' . DS . 'routes.php';
 
 //        Router::mapResources('apis');
-        Router::parseExtensions('json');
+        //Router::parseExtensions('json');

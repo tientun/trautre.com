@@ -2,24 +2,10 @@
 App::uses('Controller', 'Controller');
 class AppController extends Controller {
 	public $components = array(
-		'DebugKit.Toolbar','Session','Cookie'
-		,'Auth'=>array(
-			'loginAction' => array(
-				'controller' => 'admins',
-				'action' => 'login'
-			),
-			'authenticate' => array(
-				'Form' => array(
-					'userModel' => 'Admin'
-				)
-			),
-			'authorize' => 'Controller'
-		)
-		,'Paginator'
-	);//
-	public $helpers = array('Html','Form','Session','Paginator');//
+		'DebugKit.Toolbar','Session','Cookie','Paginator');//
+	public $helpers = array('Html','Form','Session','Paginator','Upload');//
 	function beforeFilter ()  {
-             $this->Auth->allow(array('*'));
+            
 		$this->layout='trautre_layout';
 	}
 	

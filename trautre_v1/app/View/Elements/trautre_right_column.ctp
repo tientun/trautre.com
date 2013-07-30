@@ -1,7 +1,7 @@
 <!-- Column Right -->
 <div id="rightColumn">
     <div class="box infoBox highlightBox">
-        <b>Vào Facebook để duyệt haivl sướng hơn! Bạn không vào được? Xem
+        <b>Vào Facebook để duyệt trautre sướng hơn! Bạn không vào được? Xem
             <a href="#">hướng dẫn cách vào Facebook</a>.
         </b>
     </div>                        
@@ -9,7 +9,7 @@
         <a class="buttons spaceBottom" style="float: left; width: 278px;color: white" href="/upload">Click để bắt đầu chia sẻ những bức ảnh vui!</a>
         <div class="clear"> </div>
     </div>
-    <div class="box darkBox">
+    <!-- <div class="box darkBox">
         <h3 class="topUsers"> Top danh hài</h3>
         <ul class="topUsersSort topUsersSortHome">
             <li><a class="selected" data-sort="week" href="#">tuần</a>/</li>
@@ -138,7 +138,7 @@
                 })();
             </script>
         </div>
-    </div>
+    </div>-->
     <div class="fixedScrollDetector"> </div>
     <div class="fixedScroll" style="position: fixed; top: 51px;"></div>
 </div>

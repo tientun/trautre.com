@@ -21,9 +21,9 @@ $(window).scroll(function(){
     var array = [];
     var k = 0;
     $( ".photoList .thumbnail" ).each(function (i) {
-        array[i] = $(this).height();        
+        array[i] = $(this).height(); 
       });
-    var scrTop = $(window).scrollTop();                 
+    var scrTop = $(window).scrollTop();
     if (scrTop > array[k] - 30 || scrTop < 60 ){   
         $(".photoList .info0").addClass("pos_relative").removeClass("pos_fixed");
     }

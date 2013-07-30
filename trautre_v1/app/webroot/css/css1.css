@@ -19,6 +19,14 @@ body {
 * {
     outline: medium none;
 }
+.field-validation-error
+{
+	color:red;
+}
+.input-validation-error
+{
+	background-color:#ffeeee;
+}
 #headerContent {
     height: 40px;
     margin: 0 auto;
@@ -369,10 +377,11 @@ div.infoBox a {
     overflow: hidden;
     text-align: center;
     width: 400px;
+	position:relative;
 }
 
 .photoList .thumbnail img {
-    margin: 0 auto -34px;
+    margin: 0 auto;
     max-width: 400px;
 }
 img {
@@ -764,6 +773,109 @@ ul.guidelines li {
     list-style-type: disc;
     margin-bottom: 5px;
 }
+/*************** Notifications ***************/
 
+.notification {
+                position: relative;
+                margin: 0 0 15px 0;
+                padding: 0;
+                border: 1px solid;
+                background-position: 10px 11px !important;
+                background-repeat: no-repeat !important;
+                font-size: 13px;
+                width: 99.8%;
+				
+				border-radius:6px;
+                }
+                
+
+.attention {
+                background: #fffbcc url('../img/exclamation.png') 10px 11px no-repeat;
+                border-color: #e6db55;
+                color: #666452;
+                }
+
+.information {
+                background: #dbe3ff url('../img/information.png');
+                border-color: #a2b4ee;
+                color: #585b66;
+                }
+
+.success {
+                background: #d5ffce url('../img/tick_circle.png');
+                border-color: #9adf8f;
+                color: #556652;
+                }
+
+.error {
+                background: #ffcece url('../img/cross_circle.png');
+                border-color: #df8f8f;
+                color: #665252;
+                }
+
+.notification div {
+                display:block;
+                font-style:normal;
+                padding: 10px 10px 10px 36px;
+                line-height: 1.5em;
+                }
+
+.notification .close {
+                color:#990000;
+                font-size:9px;
+                position:absolute;
+                right:5px;
+                top:5px;
+                }
+.videoIndicator
+{
+	position:absolute;
+	top:35%;
+}
+#loginPanel:hover .profileButton {
+    background-color: #000000;
+    border-radius: 5px 5px 0 0;
+    box-shadow: none;
+    color: #BABABA;
+}
+#loginPanel ul {
+    background-color: black;
+    border-radius: 0 0 5px 5px;
+    display: none;
+    font-size: 11px;
+    padding-bottom: 5px;
+    position: absolute;
+    z-index: 1000;
+}
+#loginPanel:hover ul {
+    cursor: pointer;
+    display: block;
+}
+#loginPanel ul a {
+    color: #999999;
+    display: block;
+    padding: 5px 10px;
+    transition: color 0.2s linear 0s;
+}
+#loginPanel ul a:hover {
+    color: white;
+}
+#loginPanel ul, #loginPanel span {
+    width: 162px;
+}
+#loginPanel span {
+    font-size: 11px;
+    padding-left: 30px;
+}
+.txt-input
+{
+	width:300px;
+}
+.txt-textarea
+{
+	width:300px;
+	height:100px;
+	resize:none;
+}
 /*----------------- */
 
