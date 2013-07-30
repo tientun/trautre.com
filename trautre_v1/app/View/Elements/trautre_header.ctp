@@ -7,7 +7,7 @@
             <li class="selected"> <a href="/">Mới</a> </li>
             <li> <a href="#">Hot</a> </li>
             <li> <a href="#">Cũ</a>  </li>
-            <li> <a href="/medias/vote">Bình chọn</a> </li>
+            <li> <a href="/votes/vote">Bình chọn</a> </li>
             <li> <a class="upload" href="/medias/upload">Đăng ảnh</a> </li>
             <li> <a href="#">Chế ảnh</a>  </li>
             <li> <a href="#">Tìm kiếm</a> </li>
