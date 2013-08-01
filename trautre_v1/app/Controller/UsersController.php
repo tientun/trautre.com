@@ -5,6 +5,7 @@ App::uses('AppController', 'Controller');
  *
  * @property User $User
  */
+
 class UsersController extends AppController {
 	function login(){
         $this->set("title_for_layout","Đăng nhập hệ thống"); 
@@ -19,6 +20,7 @@ class UsersController extends AppController {
 		{
 			$this->Session->write("userId",$check[0]['users']['id']);
 			$this->Session->write("fullName",$check[0]['users']['full_name']);
+			$this->Session->write("roleId",$check[0]['users']['role_id']);
 			if($type ==1)
 			{
 				$this->redirect(array('controller'=>'medias','action' => 'vote'));
@@ -41,6 +43,7 @@ class UsersController extends AppController {
 			{
 				$this->Session->write("userId",$this->User->id);
 				$this->Session->write("fullName",$full_name);
+				$this->Session->write("roleId",$this->User->role_id);
 				if($type ==1)
 				{
 					$this->redirect(array('controller'=>'medias','action' => 'vote'));
@@ -57,6 +60,7 @@ class UsersController extends AppController {
 	{
 		$this->Session->delete("userId");
 		$this->Session->delete("fullName");
+		$this->Session->delete("roleId");
 		$this->redirect(array('controller'=>'medias','action' => 'index'));
 	}
 	

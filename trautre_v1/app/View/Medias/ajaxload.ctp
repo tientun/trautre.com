@@ -1,88 +1,12 @@
-
-<script type="text/javascript">
-	$(document).ready(function(){
-		function last_msg_funtion() 
-		{  
-			var ID=$(".photoListItem:last").attr("id");
-				$("#load-hidden").show();
-				$.post("<?php echo $this->webroot;?>medias/ajaxload/"+ID,
-				
-				function(data){	
-					
-					if (data != "") {
-						$(".photoListItem:last").after(data);
-					}
-					$("#load-hidden").hide();
-				});
-		}; 
-		
-		$(window).scroll(function(){
-			if  ($(window).scrollTop() == $(document).height() - $(window).height()){
-			   last_msg_funtion();
-			}
-		}); 
-		
-	});
-	
-	function active_is_home(id)
-	{
-		var r=confirm("Bạn có muốn đưa bài viết này ra ngoài trang chủ không?");
-		if (r==true){
-			$('.loading_'+id).html('<img src="<?php echo $this->webroot;?>img/loading.gif">');
-			var url= '<?php echo $this->webroot;?>medias/active_is_home';
-			url =url+"/"+id;
-			jQuery.ajax({
-				type: "POST", 
-				url: url, 
-				data:"",
-				success: function(data){
-					if(data =="success")
-					{
-						$(".is_active_home_"+id).empty();
-						$('.loading_'+id).html("");
-					}
-				}
-			});
-		}else{
-		  return false;
-		}
-	}
-	
-	function active_is_del(id)
-	{
-		var r=confirm("Bài viết này vi phạm nội quy của website. Bạn có muộn pendding không?");
-		if (r==true){
-			$('.loading_'+id).html('<img src="<?php echo $this->webroot;?>img/loading.gif">');
-			var url= '<?php echo $this->webroot;?>medias/active_is_del';
-			url =url+"/"+id;
-			jQuery.ajax({
-				type: "POST", 
-				url: url, 
-				data:"",
-				success: function(data){
-					if(data =="success")
-					{
-						$(".peddingPost_"+id).hide();
-						$('.loading_'+id).html("");
-						
-					}
-				}
-			});
-		}else{
-		  return false;
-		}
-	}
+<script src="<?php echo $this->webroot;?>js/jquery.stickem.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('.photoList').stickem();
+		});
 	</script>
-
-<div class="box">
-
-    <!-- Messenge Notification -->
-    <h3>Ảnh mới</h3>    
-    <!-- List Picture -->
-    <div class="photoList">
-		
         <!--  Photo 1 -->
-        <?php 
+       <?php 
+		
         foreach ($medias as $media) { ?>
             <div class="photoListItem is_active_home_<?php echo $media['Media']['id'];?>" id="<?php echo $media['Media']['id']; ?>">
                 <div class="listItemSeparator"> </div>
@@ -135,36 +59,13 @@
                         </div>
                         <div class="clear"></div>
                     </div> 
-					<?php 
-						$userId = $this->Session->read("userId");
-						if(!empty($userId))
-						{
-							$check = $this->requestAction("/stats/check_stat/".$media['Media']['id']."/".$userId);
-						
-						?>
-							<div class ="vote_post">
-								<ul>
-									<?php if($check ==1)
-									{?>
-									<li><img src ="<?php echo $this->webroot;?>img/up.png"/></li>
-									<li class ="numberVote"><?php echo count($media['Stat']);?></li>
-									<li><a href ="#"><img src ="<?php echo $this->webroot;?>img/down.png"/></a></li>
-									<?php } else {?>
-									<li><a href ="#"><img src ="<?php echo $this->webroot;?>img/up.png"/></a></li>
-									<li class ="numberVote"><?php echo count($media['Stat']);?></li>
-									<li><img src ="<?php echo $this->webroot;?>img/down.png"/></li>
-									<?php }?>
-								</ul>
-							</div>
-						<?php } else {?>
-							<div class ="vote_post">
-								<ul>
-									<li><img src ="<?php echo $this->webroot;?>img/down.png" alt ="" title ="Vui lòng đăng nhập để thực hiện chức năng này."/></li>
-									<li class ="numberVote"><?php echo count($media['Stat']);?></li>
-									<li><img src ="<?php echo $this->webroot;?>img/up.png" alt ="" title ="Vui lòng đăng nhập để thực hiện chức năng này."/></li>
-								</ul>
-							</div>
-						<?php }?>
+					<div class ="vote_post">
+						<ul>
+							<li><a href ="#"><img src ="<?php echo $this->webroot;?>img/down.png"/></a></li>
+							<li class ="numberVote">0</li>
+							<li><a href ="#"><img src ="<?php echo $this->webroot;?>img/up.png"/></a></li>
+						</ul>
+					</div>
 					<?php $roleId = $this->Session->read("roleId");
 						if($roleId ==1){
 					?>
@@ -184,8 +85,3 @@
             </div>  
 			<?php 	} ?>
         <div class="clear"></div>
-    </div> 
-	 <div id="load-hidden" align="center" style="display: none !important;text-align: center;" >
-		<img src="<?php echo $this->webroot;?>img/loading.gif" alt="Loading..." />
-	</div>	
-</div>

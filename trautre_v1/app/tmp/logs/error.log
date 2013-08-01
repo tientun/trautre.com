@@ -2835,3 +2835,523 @@
 #1 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(VotesController), Object(CakeRequest), Object(CakeResponse))
 #2 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2013-07-30 07:14:03 Error: [MissingActionException] Action VotesController::<() could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(VotesController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-30 09:36:25 Error: [MissingComponentException] Component class isAjaxComponent could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Controller\ComponentCollection.php(52): ComponentCollection->load('isAjax', Array)
+#1 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Controller\Controller.php(635): ComponentCollection->init(Object(MediasController))
+#2 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(99): Controller->constructClasses()
+#3 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#4 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-07-30 09:36:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 09:36:26 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 09:36:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 09:41:03 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 09:43:11 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 09:44:49 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 09:46:11 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 10:26:06 Error: [MissingActionException] Action MediasController::ajaxloadajax() could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-30 10:26:13 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 10:26:30 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 10:26:30 Error: [MissingActionException] Action MediasController::ajaxloadajax() could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-30 10:26:37 Error: [MissingActionException] Action MediasController::ajaxloadajax() could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-30 10:38:23 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 13:35:31 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 14:47:23 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in where clause is ambiguous
+#0 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `Media`....', Array)
+#2 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('SELECT `Media`....', Array, Array)
+#3 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Model\Datasource\DboSource.php(1058): DboSource->fetchAll('SELECT `Media`....', false)
+#4 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Model\Model.php(2663): DboSource->read(Object(Media), Array)
+#5 E:\wamp\www\trautre.com\trautre_v1\app\Controller\MediasController.php(88): Model->find('all', Array)
+#6 [internal function]: MediasController->ajaxload('19')
+#7 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MediasController), Array)
+#8 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#9 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#10 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-07-30 14:48:02 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in where clause is ambiguous
+#0 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `Media`....', Array)
+#2 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('SELECT `Media`....', Array, Array)
+#3 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Model\Datasource\DboSource.php(1058): DboSource->fetchAll('SELECT `Media`....', false)
+#4 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Model\Model.php(2663): DboSource->read(Object(Media), Array)
+#5 E:\wamp\www\trautre.com\trautre_v1\app\Controller\MediasController.php(88): Model->find('all', Array)
+#6 [internal function]: MediasController->ajaxload('19')
+#7 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MediasController), Array)
+#8 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#9 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#10 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-07-30 14:48:02 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in where clause is ambiguous
+#0 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `Media`....', Array)
+#2 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('SELECT `Media`....', Array, Array)
+#3 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Model\Datasource\DboSource.php(1058): DboSource->fetchAll('SELECT `Media`....', false)
+#4 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Model\Model.php(2663): DboSource->read(Object(Media), Array)
+#5 E:\wamp\www\trautre.com\trautre_v1\app\Controller\MediasController.php(88): Model->find('all', Array)
+#6 [internal function]: MediasController->ajaxload('19')
+#7 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MediasController), Array)
+#8 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#9 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#10 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-07-30 14:48:04 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in where clause is ambiguous
+#0 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `Media`....', Array)
+#2 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('SELECT `Media`....', Array, Array)
+#3 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Model\Datasource\DboSource.php(1058): DboSource->fetchAll('SELECT `Media`....', false)
+#4 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Model\Model.php(2663): DboSource->read(Object(Media), Array)
+#5 E:\wamp\www\trautre.com\trautre_v1\app\Controller\MediasController.php(88): Model->find('all', Array)
+#6 [internal function]: MediasController->ajaxload('19')
+#7 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MediasController), Array)
+#8 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#9 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#10 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-07-30 14:48:16 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in where clause is ambiguous
+#0 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `Media`....', Array)
+#2 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('SELECT `Media`....', Array, Array)
+#3 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Model\Datasource\DboSource.php(1058): DboSource->fetchAll('SELECT `Media`....', false)
+#4 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Model\Model.php(2663): DboSource->read(Object(Media), Array)
+#5 E:\wamp\www\trautre.com\trautre_v1\app\Controller\MediasController.php(88): Model->find('all', Array)
+#6 [internal function]: MediasController->ajaxload('19')
+#7 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MediasController), Array)
+#8 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#9 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#10 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-07-30 14:48:30 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in where clause is ambiguous
+#0 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `Media`....', Array)
+#2 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('SELECT `Media`....', Array, Array)
+#3 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Model\Datasource\DboSource.php(1058): DboSource->fetchAll('SELECT `Media`....', false)
+#4 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Model\Model.php(2663): DboSource->read(Object(Media), Array)
+#5 E:\wamp\www\trautre.com\trautre_v1\app\Controller\MediasController.php(88): Model->find('all', Array)
+#6 [internal function]: MediasController->ajaxload('19')
+#7 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MediasController), Array)
+#8 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#9 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#10 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-07-30 15:03:47 Error: [MissingActionException] Action MediasController::jquery.min.map() could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-30 15:03:47 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 15:04:32 Error: [MissingActionException] Action MediasController::jquery.min.map() could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-30 15:04:32 Error: [MissingActionException] Action MediasController::jquery.min.map() could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-30 15:04:32 Error: [MissingActionException] Action MediasController::jquery.min.map() could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-30 15:04:32 Error: [MissingActionException] Action MediasController::jquery.min.map() could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-30 15:04:33 Error: [MissingActionException] Action MediasController::jquery.min.map() could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-30 15:05:32 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 15:06:14 Error: [MissingActionException] Action MediasController::jquery.min.map() could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-30 15:06:14 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 15:09:07 Error: [MissingActionException] Action MediasController::jquery.min.map() could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-30 15:09:07 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 15:09:25 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 15:09:36 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 15:11:05 Error: [MissingActionException] Action MediasController::jquery.min.map() could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-30 15:11:05 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 15:16:59 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 15:20:07 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 15:20:10 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 15:25:03 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 15:25:36 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 15:27:34 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 15:30:25 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 15:31:44 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 15:35:22 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 15:35:41 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 15:36:39 Error: [MissingActionException] Action MediasController::jquery.min.map() could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-30 15:36:40 Error: [MissingActionException] Action MediasController::jquery.min.map() could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-30 15:39:21 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 15:39:21 Error: [MissingActionException] Action MediasController::jquery.min.map() could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-30 15:39:36 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 15:39:36 Error: [MissingActionException] Action MediasController::jquery.min.map() could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-30 15:40:12 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 15:40:41 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 15:54:00 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 15:54:48 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 15:55:06 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 16:02:09 Error: [MissingActionException] Action MediasController::jquery.min.map() could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-30 16:02:09 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 16:02:28 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 16:02:39 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 16:04:11 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 16:04:27 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 16:04:34 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 16:05:06 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 16:05:21 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 16:12:46 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 16:13:00 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 16:16:04 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 16:16:21 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 16:19:05 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 16:19:24 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 16:42:35 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 16:43:06 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 16:58:27 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 17:30:57 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 17:31:05 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 17:58:01 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 17:58:19 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 17:58:56 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 18:04:28 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 18:05:31 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 18:05:39 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 18:06:07 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 18:06:29 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 18:06:31 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 18:07:31 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 18:08:08 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 18:09:08 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 18:09:15 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 18:17:37 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 18:18:36 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-31 03:55:34 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-31 03:56:10 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-31 04:02:12 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-31 04:02:58 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-31 04:07:03 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-31 04:11:19 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-31 04:17:17 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-31 04:19:22 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-31 04:21:05 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-31 04:37:39 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-31 04:37:44 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-31 05:57:46 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-31 09:23:01 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-31 09:47:31 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-31 09:54:14 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-31 09:54:51 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-31 09:55:11 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-31 09:57:51 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-31 09:58:21 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-31 10:03:12 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-31 10:03:45 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-31 10:15:27 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-31 13:12:13 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-31 13:12:42 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-31 13:13:13 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-01 04:26:54 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-01 04:32:13 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-01 06:46:27 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-01 06:46:40 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-01 06:46:59 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-01 06:47:29 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-01 06:50:12 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-01 07:04:45 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-01 07:05:43 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-01 07:06:23 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-01 07:09:05 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-01 07:51:03 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-01 07:51:25 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-01 09:24:40 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in where clause is ambiguous
+#0 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Model\Datasource\DboSource.php(437): PDOStatement->execute(Array)
+#1 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Model\Datasource\DboSource.php(403): DboSource->_execute('SELECT `Stat`.`...', Array)
+#2 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Model\Datasource\DboSource.php(647): DboSource->execute('SELECT `Stat`.`...', Array, Array)
+#3 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Model\Datasource\DboSource.php(1058): DboSource->fetchAll('SELECT `Stat`.`...', false)
+#4 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Model\Model.php(2663): DboSource->read(Object(Stat), Array)
+#5 E:\wamp\www\trautre.com\trautre_v1\app\Controller\StatsController.php(27): Model->find('first', Array)
+#6 [internal function]: StatsController->check_stat('8', '12')
+#7 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(StatsController), Array)
+#8 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#9 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(StatsController), Object(CakeRequest), Object(CakeResponse))
+#10 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Core\Object.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#11 E:\wamp\www\trautre.com\trautre_v1\app\View\Medias\vote.ctp(142): Object->requestAction('/stats/check_st...')
+#12 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\View\View.php(908): include('E:\wamp\www\tra...')
+#13 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\View\View.php(872): View->_evaluate('E:\wamp\www\tra...', Array)
+#14 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\View\View.php(463): View->_render('E:\wamp\www\tra...')
+#15 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#16 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#17 E:\wamp\www\trautre.com\trautre_v1\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#18 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2013-08-01 09:31:31 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 E:\wamp\www\trautre.com\trautre_v1\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

@@ -2,7 +2,7 @@
 App::uses('Controller', 'Controller');
 class AppController extends Controller {
 	public $components = array(
-		'DebugKit.Toolbar','Session','Cookie','Paginator');//
+		'DebugKit.Toolbar','Session','Cookie','Paginator',"RequestHandler");//
 	public $helpers = array('Html','Form','Session','Paginator','Upload');//
 	function beforeFilter ()  {
             

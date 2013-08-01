@@ -19,8 +19,22 @@ class UploadHelper extends AppHelper {
                 $width= $width;
                 $height =  $data[1];
               }
+			$arr = end(explode("/",$oldimage_name));
+			list($txt, $ext) = explode(".", $arr);			
             $im = imagecreatetruecolor($width, $height);
-            $img_src = imagecreatefromjpeg($oldimage_name);
+			if ($ext == 'jpg') {
+				$img_src = imagecreatefromjpeg($oldimage_name);
+			} else
+			if ($ext == 'jpeg') {
+				$img_src = imagecreatefromjpeg($oldimage_name);
+			} else
+			if ($ext == 'png') {
+				$img_src = imagecreatefrompng($oldimage_name);
+			} else
+			if ($ext == 'gif') {
+				$srcImg = imagecreatefromgif($oldimage_name);
+			}
+            //$img_src = imagecreatefromjpeg($oldimage_name);
             imagecopyresampled($im, $img_src, 0, 0, 0, 0, $width, $height, $owidth, $oheight+50);
             $watermark = imagecreatefrompng($image_path);
             list($w_width, $w_height) = getimagesize($image_path);        

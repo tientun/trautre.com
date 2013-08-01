@@ -296,6 +296,7 @@ div.infoBox a {
     border-bottom: 1px solid #DDDDDD;
     margin-bottom: 10px;
     padding: 10px 0 20px;
+	position:relative;
 }
 .photoList .featuredFanPage {
     border-bottom: 1px solid #DDDDDD;
@@ -829,8 +830,10 @@ ul.guidelines li {
                 }
 .videoIndicator
 {
-	position:absolute;
-	top:35%;
+	left: 44%;
+    position: absolute;
+    top: 35%;
+    z-index: 999;
 }
 #loginPanel:hover .profileButton {
     background-color: #000000;
@@ -877,5 +880,60 @@ ul.guidelines li {
 	height:100px;
 	resize:none;
 }
-/*----------------- */
+.vote_post
+{
+	position: relative;
+	left: -466px;
+	top: -80px;
+	z-index:1;
+}
+.vote_post ul
+{
+	background:#7bac75;
+	border:1px solid #7bac75;
+	border-radius:3px;
+	width:38px;
+}
+.vote_post ul li
+{
+	padding:5px 10px;
+}
 
+.vote_post ul .numberVote
+{
+	background:#fff;
+	font-weight:bold;
+	text-align:center;
+}
+/*----------------- */
+.action
+{
+	margin-top:20px;
+	position:relative;
+	top:-80px;
+}
+.action ul
+{
+	list-style:none;	
+}
+.action ul li 
+{
+	display:inline-block;
+}
+.action ul li  a
+{
+	
+	background:#7bac75;
+	padding:10px;
+	border-radius:5px;
+}
+.stickit {
+	position: fixed;
+	top: 60px;
+}
+
+.stickit-end {
+	bottom: 60px;
+	position: absolute;
+	right: 0;
+}

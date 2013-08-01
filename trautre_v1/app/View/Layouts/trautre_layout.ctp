@@ -12,7 +12,12 @@
         echo $this->Html->script('script');
         echo $this->Html->script('jquery.colin');
         ?>
-
+		<script src="<?php echo $this->webroot;?>js/jquery.stickem.js"></script>
+		<script>
+			$(document).ready(function() {
+				$('.photoList').stickem();
+			});
+		</script>
         <!--[if lt IE 9]>
         <?php echo $this->Html->script('html5shiv'); ?>
         <![endif]-->

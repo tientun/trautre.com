@@ -129,6 +129,6 @@ Cache::config('default', array('engine' => 'File'));
   *
  */
 CakePlugin::loadAll(); // Loads all plugins at once
- Configure::write('WEBSITE', 'http://local-trautre.com/');
+ Configure::write('WEBSITE', 'http://lyricslibraries.com/');
  Configure::write('APP_ID', '218105908338859');
  Configure::write('SECRET', '28592b387dcec91a301d023d2e546394');
