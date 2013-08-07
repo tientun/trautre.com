@@ -119,7 +119,7 @@
 			var _self = this;
 
 			if(_self.items.length > 0) {
-				var pos = _self.$win.scrollTop();
+				var pos = _self.$win.scrollTop() + 60;
 
 				for(var i = 0, len = _self.items.length; i < len; i++) {
 					var item = _self.items[i];

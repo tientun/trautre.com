@@ -789,7 +789,6 @@ ul.guidelines li {
 				border-radius:6px;
                 }
                 
-
 .attention {
                 background: #fffbcc url('../img/exclamation.png') 10px 11px no-repeat;
                 border-color: #e6db55;
@@ -927,13 +926,16 @@ ul.guidelines li {
 	padding:10px;
 	border-radius:5px;
 }
+
+.stickem-container {
+  position: relative;
+}
 .stickit {
 	position: fixed;
 	top: 60px;
 }
 
 .stickit-end {
-	bottom: 60px;
-	position: absolute;
-	right: 0;
+	
+	position: relative;	
 }

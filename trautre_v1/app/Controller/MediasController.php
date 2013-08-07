@@ -8,7 +8,9 @@ class MediasController extends AppController {
     var $uses = array("Media", "User");
 
     public function index() {
-        
+        $this->set("title_for_layout", "Trang Chủ");
+        $medias = $this->Media->find("all", array("conditions" => array("is_home" => 0), "order" => array("Media.created" => "DESC"), "limit" => 10));
+        $this->set(compact("medias"));
     }
 
     function upload() {
@@ -89,11 +91,10 @@ class MediasController extends AppController {
 				'conditions'=>array('Media.is_home'=>'0','is_del'=>0),
 				)
 			);
-		}		
-		
+		}				
 		 $this->set('medias', $union);
     }
-	function ajaxload($id = NULL){
+    function ajaxload($id = NULL){
 		$this->layout = 'ajax';	
 		$userId = $this->Session->read("userId");
 		$roleId = $this->Session->read("role_id");
@@ -139,7 +140,7 @@ class MediasController extends AppController {
         $this->set("medias", $this->paginate());
     }
 
-	function active_is_home($media_id = NULL)
+    function active_is_home($media_id = NULL)
 	{
 		$this->layout = 'ajax';
 		$this->autoRender = false; 
@@ -148,7 +149,7 @@ class MediasController extends AppController {
 			echo "success";
 		}
 	}
-	function active_is_del($media_id = NULL)
+    function active_is_del($media_id = NULL)
 	{
 		$this->layout = 'ajax';
 		$this->autoRender = false; 
